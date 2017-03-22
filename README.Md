@@ -1,23 +1,21 @@
 # FOODON
 [![Build Status](https://travis-ci.org/FoodOntology/foodon.svg?branch=master)](https://travis-ci.org/FoodOntology/foodon)
 
+Our [FoodOn project home page](http://foodontology.github.io/foodon/) introduces FoodOn and its design and community.
 
-The need to represent knowledge about food is central to many fields including biomedicine and sustainable development. FOODON is a new ontology built to interoperate with the OBO Library and to represent entities which bear a “food role”. It encompasses materials in natural ecosystems and food webs as well as human- centric categorization and handling of food. The latter will be the initial focus of the ontology, and we aim to develop semantics for food safety, food security, the agricultural and animal husbandry practices linked to food production, culinary, nutritional and chemical ingredients and processes. This project is motivated by the recognition that although several resources and standards for indexing food descriptors currently exist, their content and interrelations are not semantically and logically coherent.
+FoodOn is initially based on a conversion of the LanguaL.org food indexing thesaurus, integrated with OBOFoundry ontology terms from UBERON, ChEBI, and NCBITaxon and others.  This approach allows  LanguaL(tm)'s thesaurus file to be updated over time, and the owl file to be updated as needed.  
 
-The scope of FOODON is ambitious and will require input from multiple domains. FOODON will import or map to material in existing ontologies and standards and will create content to cover gaps in the representation of food-related products and processes. The products of this work are being applied to research and clinical datasets such as those associated with the Canadian Healthy Infant Longitudinal Development (CHILD) study which examines the causal factors of asthma and allergy development in children, and the Integrated Rapid Infectious Disease Analysis (IRIDA) platform for genomic epidemiology and foodborne outbreak investigation.
+Contact Us
 
-Mailing List
+* Join our [mailing list](https://groups.google.com/forum/#!forum/foodon-consortium/join)
+* Online discussion about FoodOn terms is at the [issue tracker](https://github.com/FoodOntology/foodon/issues).
+* Documentation coming soon at the [wiki page](https://github.com/FoodOntology/foodon/wiki)
+* Email us at info[at]genepio.org
 
-We have just started up a new [mailing list](https://groups.google.com/forum/#!forum/foodon-consortium/join)
+##To view
 
-Consortium
+An easy place to browse FoodOn is at [https://www.ebi.ac.uk/ols/ontologies/foodon](https://www.ebi.ac.uk/ols/ontologies/foodon).
 
-As a robust food ontology can only be created by consensus and wide adoption, we are currently forming an international, open-membership consortium to build partnerships, solicit domain expertise, and gather use cases to guide the ontology’s development.
+The foodon_core.owl main file currently contains everything FoodOn has to offer except for an indexed food product database. foodon_siren.owl has such a database included in it - over 9,000 foods from the FDA SIREN indexed food database, imported from LanguaL.org. (Currently foodon.owl is identical to foodon_core.owl).  
 
-Founding members
-
-* William Hsiao, Fiona Brinkman, Damion Dooley and Emma Griffiths are involved in the Integrated Rapid Infectious Disease Analysis project; their focus is on ontology of food-borne pathogen related (genomic) epidemiology (GenEpiO). Fiona and Emma are also involved in The Canadian Healthy Infant Longitudinal Development study (CHILD) investigating genetic and environmental factors associated with the development of allergy and asthma.
-* Pier Luigi Buttigieg is developing environmental ontologies (ENVO) and semantics for sustainable development. These domains include the semantics of food production, security, and composition and ecological food webs.
-* Robert Hoehndorf, a key proponent of the Aber-OWL.net project, is researching chemical exposure with respect to diet and health.
-* Matthew Lange spearheads the IC3-Foods consortium, with a focus on the technology and policy implications of next generation food systems.
-
+You can look at either file using in Protege or another OWL ontology editor.  It should import the ncbitaxon_import.owl and other imports/ files too.  Use Stanford's free [Protege](http://protege.stanford.edu) ontology editor to load the main file, and browse the Langual hierarchy under the "Classes" tab.  
