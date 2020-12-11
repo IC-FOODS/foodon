@@ -1,4 +1,4 @@
-This project is an ALPHA version of the upcomming FoodOn ontology.  It is mainly based on a conversion of the LanguaL.org XML thesaurus facet data, integrated with OBOFoundry terms from UBERON, ChEBI, and NCBITaxon and others.  The approach allows  LanguaL(tm)'s thesaurus file to be updated over time, and the owl file to be updated as needed.  
+This project is a BETA version of the FoodOn ontology.  It is mainly based on a conversion of the LanguaL.org XML thesaurus facet data, integrated with OBOFoundry terms from UBERON, ChEBI, and NCBITaxon and others.  The approach allows  LanguaL(tm)'s thesaurus file to be updated over time, and the owl file to be updated as needed.  Since 2018 FoodOn has included a large 10,000+ food product database that originates from the LanguaL indexed SIREN database, plus many more additions.
 
 ##To view
 
@@ -8,6 +8,10 @@ it should import the ncbitaxon_import.owl and other imports/ files too.  Use Sta
 ##To edit
 
 The /src/ontology/foodon-edit.owl and many /src/ontology/imports/ files can be edited using Protege or by hand.  Note however that the uberon, ncbitaxon, and chebi ontofox .txt specification files are actually generated from templates in the /src/ontology/imports/langual/ folder, so add to those templates if you want additions to uberon, ncbitaxon and chebi.  
+
+## To TEST
+
+robot reason --input foodon-edit.owl --reasoner hermit
 
 ##To regenerate the files
 
@@ -20,3 +24,15 @@ Then change directory to the "/src/ontology" folder, and run "make".  That will 
 langual.py may need a few python modules loaded up.  It can take a number of minutes to generate
 if database.json is already established; it will take much longer to run if database.json has been
 deleted since it fetches NCBITaxon related information using the EOL.org API (in batches)
+
+##To run SPARQL queries
+
+As Protege's sparql query engine has some odd startup phase that often stalls protege on large ontologies, one may need to launch sparql queries via command line directly. Here is an example using http://robot.obolibrary.org/query.html
+
+robot query --input foodon-merged.owl --query owl_get_labels.sparql test.tsv --format TSV
+
+##To run ontofetch.py on local foodon-merged.owl and get a json or tsv output of all foodon terms and their ids, synonyms and parents:
+
+python ../../../ontofetch/ontofetch.py foodon-merged.owl -r http://purl.obolibrary.org/obo/BFO_0000001 -o test/
+
+Ontofetch is available at: https://github.com/Public-Health-Bioinformatics/ontofetch .  It requires python 3, and the python rdflib module.

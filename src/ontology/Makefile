@@ -1,3 +1,4 @@
+#!/bin/sh
 OBO=http://purl.obolibrary.org/obo
 ONT=foodon
 BASE=$(OBO)/$(ONT)
@@ -6,24 +7,32 @@ RELEASEDIR=../..
 ROBOT= robot
 OWLTOOLS= owltools
 
-# THE "make" PROCESS VIA robot/owlapi PAYS ATTENTION TO THE catalog-v001.xml 
-# file residing in this directory.  If you are running into the problem of 
+# THE "make" PROCESS VIA robot/owlapi PAYS ATTENTION TO THE catalog-v001.xml
+# file residing in this directory.  If you are running into the problem of
 # local files not being found, e.g. with this error coming up:
 #
 #   org.semanticweb.owlapi.model.UnloadableImportException: Could not load \
 #   imported ontology: <http://purl.obolibrary.org/obo/FOODON/imports/efo_import.owl> \
 #   Cause: https://raw.githubusercontent.com/FoodOntology/foodon/master/src/imports/efo_import.owl
 
-# then the catalog catalog-v001.xml file likely needs to be edited, or delete it 
-# and load the root [ontology]-edit.owl file in Protege and ensure the 
+# then the catalog catalog-v001.xml file likely needs to be edited, or delete it
+# and load the root [ontology]-edit.owl file in Protege and ensure the
 # import file connections are established correctly.  This will rewrite the
 # catalog-v001.xml file, and the make process should succeed.
 
 # Temporarily foodon.owl and foodon_core.owl are the same.
 
-all: all_imports $(ONT).owl 
-test: all
-prepare_release: all 
+all: all_imports $(ONT).owl
+
+.PHONY: test
+test: reason
+
+# Run a basic reasoner to find inconsistencies
+.PHONY: reason
+reason: foodon-merged.owl
+	$(ROBOT) reason --input $< --reasoner ELK
+
+prepare_release: all
 	cp $(ONT).owl $(RELEASEDIR) &&\
 	cp $(ONT).owl $(ONT)_core.owl &&\
 	cp $(ONT)_core.owl $(RELEASEDIR) &&\
@@ -33,20 +42,32 @@ prepare_release: all
 	(test -f subsets/*.owl && cp subsets/*.owl $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
+#make
 #Annotates foodon.owl ( $(ONT).owl ) file with release
 $(ONT).owl: $(SRC)
-	$(ROBOT) reduce -i $< -r ELK -s true annotate --xml-entities -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+	$(ROBOT) reduce -i $< -r ELK annotate --xml-entities -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl --typed-annotation http://purl.org/dc/terms/date `date +%Y-%m-%d` xsd:date -o "$@"
+
+# Merge ontology and imports into one file, and commment out imports tags
+	$(ROBOT) merge --input $(ONT).owl --xml-entities --output $(ONT)-merged.owl
+	sed -i '.bak' 's/<owl:imports[^>]*\/>/<!-- & -->/' $(ONT)-merged.owl
+
+# Make a file that provides labels for each term in ontology.
+# Note: may want to include langual_deprecated_import.owl
+#	robot query --format TSV --input foodon-merged.owl -s owl_get_labels.sparql foodon-labels.tsv
 
 # ALL OWL imports: chebi efo envo eo gazetteer ncbitaxon obi ro uberon langual
-# ALL OntoFox imports: chebi efo envo eo gazetteer ncbitaxon obi ro 
-IMPORTS = chebi eo ncbitaxon envo obi ro uberon gaz
+# ALL OntoFox imports: chebi efo envo eo gazetteer ncbitaxon obi ro
+# ISSUE WITH BFO: Ontofox doesn't download disjointWith axioms????
+IMPORTS = agro chebi envo eupath fao gaz hancestro ncit ncbitaxon obi pato peco po ro uo uberon
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))
+IMPORTS_TXT = $(patsubst %, imports/%_ontofox.txt,$(IMPORTS))
 
 # Make this target to regenerate ALL
 all_imports: $(IMPORTS_OWL)
 
-# Only fetches .owl if it doesn't exist or if .txt has later timestamp.
-# All annotations are manually curated in the ontology-metadata.owl file
+# Dependency between import.owl and ontofox.txt file. Only fetches .owl if it
+# doesn't exist or if .txt has later timestamp.
+# All annotations should only exist in the ontology-metadata.owl file and bfo.owl files.
 # Because OWLAPI is erroniously parsing 1 line commented out annotations, make the "sed ..." step last.
 # On Macs we need the '.bak' after -i to avoid a parsing error; while on other linux it fails
 imports/%_import.owl: imports/%_ontofox.txt
@@ -54,7 +75,7 @@ imports/%_import.owl: imports/%_ontofox.txt
 
 	echo "Downloaded $@"
 
-	$(ROBOT) reduce -i $@ -r ELK -s true --xml-entities -o $@
+	$(ROBOT) reduce -i $@ -r ELK -o $@
 
 	echo "Entity substitution."
 
@@ -62,16 +83,26 @@ imports/%_import.owl: imports/%_ontofox.txt
 
 	echo "Removed annotation definitions."
 
-# Use ROBOT, driven entirely by terms lists NOT from source ontology
-#imports/%_import.owl: mirror/%.owl imports/%_terms.txt
-#	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
+
+# Any import .owl file that has a timestamp significantly later than .txt has been resaved by Protege or some other process.
+# re-apply xml entities to it
+# imports/%_import.owl: ???????
+#	$(ROBOT) reduce -i @imports/$*_import.owl -r ELK -s true --xml-entities -o @imports/$*_import.owl
+
 
 .PRECIOUS: imports/%_import.owl
 
-# clone remote ontology locally, perfoming some excision of relations and annotations
-#mirror/%.owl: $(SRC)
-#	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
-#.PRECIOUS: mirror/%.owl
 
-release: $(ONT).owl 
+
+## Make Targets for Robot Templates: ##
+
+# Organismal Materials Robot template
+imports/robot/organismal_materials.owl: imports/robot/organismal_materials.tsv
+	$(ROBOT) template --template $< -i foodon-edit.owl --prefix "FOODON:http://purl.obolibrary.org/obo/FOODON_" --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "PO:http://purl.obolibrary.org/obo/PO_" --prefix "NCBITaxon:http://purl.obolibrary.org/obo/NCBITaxon_" --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" --prefix "schema:http://schema.org/"  --ontology-iri "http://purl.obolibrary.org/foodon/imports/robot_organismal_materials.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
+
+
+
+
+
+release: $(ONT).owl
 	cp $^ $RELEASEDIR && cp imports/*.owl $RELEASEDIR/imports

@@ -8,14 +8,42 @@ NCBITaxon
 http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank #taxonomic rank
 includeAllChildren
 
+http://purl.obolibrary.org/obo/NCBITaxon_50519 # Dynastinae ; rhinoceros beetle
+http://purl.obolibrary.org/obo/NCBITaxon_7065 # darkling beetle
+http://purl.obolibrary.org/obo/NCBITaxon_7067 # Tenebrio molitor yellow mealworm beetle
+http://purl.obolibrary.org/obo/NCBITaxon_205537 # Solanum caripense
+http://purl.obolibrary.org/obo/NCBITaxon_3988 # Ricinus communis / castor bean
+
 http://purl.obolibrary.org/obo/NCBITaxon_3750 # Apple - malus domestica 
 http://purl.obolibrary.org/obo/NCBITaxon_2711 # Citrus sinensis  
 http://purl.obolibrary.org/obo/NCBITaxon_7898 # Actinopterygii 
 http://purl.obolibrary.org/obo/NCBITaxon_7955 # Danio rerio 
 http://purl.obolibrary.org/obo/NCBITaxon_6690 # Farfantepenaeus aztecus
+http://purl.obolibrary.org/obo/NCBITaxon_9825 # Sus scrofa domesticus (pig)
+http://purl.obolibrary.org/obo/NCBITaxon_415978# Sus scrofa scrofa 
 http://purl.obolibrary.org/obo/NCBITaxon_85552 # Scylla paramamosain  
 http://purl.obolibrary.org/obo/NCBITaxon_29960 # Fenneropenaeus indicus  
 http://purl.obolibrary.org/obo/NCBITaxon_27292 # Saccharomyces pastorianus
+
+http://purl.obolibrary.org/obo/NCBITaxon_212017 # giant water bug
+
+http://purl.obolibrary.org/obo/NCBITaxon_51239 # Vanilla planifolia 
+http://purl.obolibrary.org/obo/NCBITaxon_669897 # Vanilla x tahitensis
+
+http://purl.obolibrary.org/obo/NCBITaxon_40674 # Mammalia (class) // Somehow this didn't get included in food organism hierarchy.
+http://purl.obolibrary.org/obo/NCBITaxon_9606 # Homo Sapiens (as consumer)
+http://purl.obolibrary.org/obo/NCBITaxon_9615 # Canis lupus familiaris
+http://purl.obolibrary.org/obo/NCBITaxon_9685 # Felis catus
+http://purl.obolibrary.org/obo/NCBITaxon_9986 # Oryctolagus cuniculus
+http://purl.obolibrary.org/obo/NCBITaxon_9527 # old world monkey / Cercopithecidae
+http://purl.obolibrary.org/obo/NCBITaxon_9479 # new world monkey / Platyrrhini
+http://purl.obolibrary.org/obo/NCBITaxon_52838 # Musa balbisiana
+http://purl.obolibrary.org/obo/NCBITaxon_4751 # Fungi
+
+http://purl.obolibrary.org/obo/NCBITaxon_1476529 # jawless invertebrates / Cyclostomata
+http://purl.obolibrary.org/obo/NCBITaxon_83752 # Rattus argentiventer field-rat
+
+http://purl.obolibrary.org/obo/NCBITaxon_1092587 # Mammal environmental sample
 
 # NOTE: IF THERE ARE NO IMPORT TERMS BEFORE THE NEXT "Top level source ..." TEXT
 # THEN THIS IS THE TEMPLATE FILE THAT ONE CAN ADD TAXONOMY ITEMS TO ABOVE.

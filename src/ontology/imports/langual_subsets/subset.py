@@ -129,7 +129,7 @@ class Langual(object):
         prefix = '&obo;'
 
         facet_relations_rdf = ''
-        subClassOfId = None
+        owl_output = ''
 
         for langual_id in entity['langual_ids']:
 
@@ -148,7 +148,7 @@ class Langual(object):
             label = refEntity['label']['value'].lower()
             if refEntity['status'] == 'deprecated':
                 if refEntity['database_id'][0] == 'H' and label[-6:] == ' added' and label[0:-6] in self.label_reverse_lookup:
-                    print "Replaced secondary ingredient with "
+                    print "Replaced secondary ingredient with ", label[0:-6]
                     refEntity = self.label_reverse_lookup[ label[0:-6] ]
                 # These are junky parts of conjunction
                 elif label[0:3] == 'no ' or label[-10:] == ' not known' or label[-14:] == 'not applicable': 
@@ -166,17 +166,17 @@ class Langual(object):
             relation = None
 
             # A. PRODUCT TYPE [A0361]
-            # A particular database/subset may reference only one Product Type Hierarchy, e.g. an US FDA one.
-            # This is handled separately as rdfs:subClassOf
-            if category == 'A': subClassOfId = ontology_id # 'rdfs:subClassOf'   
+            # A particular database/subset may place a product under one or more Product Type Hierarchies, e.g. an US FDA one.
+            if category == 'A':
+                owl_output += '\t<rdfs:subClassOf rdf:resource="%s%s"/>\n' % (prefix, ontology_id)
 
             # B. FOOD SOURCE [B1564]
             # This is always the primary ingredient, attached using the 'has primary substance added'
             # - Includes raw animal, plant, bacteria and fungi ingredients.
-            if category == 'B': relation = '&obo;FOODON_00001563' # Has primary substance added'.  Awaiting RO relation
+            if category == 'B': relation = '&obo;RO_0009005' # Has primary substance added'.  Awaiting RO relation
 
             # C. PART OF PLANT OR ANIMAL [C0116]
-            elif category == 'C': relation = '&obo;RO_0001000' # Part Of
+            elif category == 'C': relation = '&obo;RO_0001000' # Derives from
 
             # E. PHYSICAL STATE, SHAPE OR FORM [E0113]
             elif category == 'E': relation = '&obo;RO_0000086' # Has Quality
@@ -190,8 +190,9 @@ class Langual(object):
             #H. TREATMENT APPLIED [H0111]
             elif category == 'H': 
                 if label[-6:] == ' added':
-                    # Exception: if word " added" at end, then "has substance added"  and keep deprecated reference in order to address this later.
-                    relation = '&obo;FOODON_00001560' # "has substance added"
+                    # Exception: if word " added" at end, then "has substance added" and keep 
+                    # deprecated reference in order to address this later.
+                    relation = '&obo;RO_0009001' # "has substance added"
                 else:
                     relation = '&obo;RO_0002354' # formed as a result of
             
@@ -201,7 +202,7 @@ class Langual(object):
 
             #K. PACKING MEDIUM [K0020]
             elif category == 'K' and langual_id != 'K0003': 
-                relation = '&obo;FOODON_00001301' # Immersed in.  Awaiting RO relation.  RO_0001025 Located In (preferrably "immersed in")
+                relation = '&obo;RO_0009003' # Immersed in.
 
             #M. CONTAINER OR WRAPPING [M0100]
             elif category == 'M': relation = '&obo;PATO_0005016' # surrounded by / RO_0002002 has 2D boundary 
@@ -210,7 +211,11 @@ class Langual(object):
             elif category == 'N': relation = '&obo;RO_0002220' # Adjacent to (AT SOME POINT IN TIME)
 
             #P. CONSUMER GROUP/DIETARY USE/LABEL CLAIM [P0032]
-            elif category == 'P': relation = '&obo;FOODON_00001302' # Has Consumer / RO_0000086 has Quality
+            elif category == 'P': 
+                if langual_id == 'P0024': # ignore all 'human consumer, no age specification'; this is handled through inheritance.
+                    relation = None
+                else:
+                    relation = '&obo;RO_0009004' # Has Consumer / RO_0000086 has Quality
 
             #R. GEOGRAPHIC PLACES AND REGIONS [R0010]
             elif category == 'R': relation = 'http://www.ebi.ac.uk/ancestro/ancestro_0308' # Has country of origin
@@ -227,11 +232,7 @@ class Langual(object):
             ''' % (relation, ontology_id)
 
         # BEGIN <owl:Class> 
-        owl_output = '\n\n<owl:Class rdf:about="%s%s">\n' % (prefix, entity['id'])
-
-        # Product type is used for class hierarchy.
-        if subClassOfId:
-            owl_output += '\t<rdfs:subClassOf rdf:resource="%s%s"/>\n' % (prefix, subClassOfId)
+        owl_output = '\n\n<owl:Class rdf:about="%s%s">\n' % (prefix, entity['id']) + owl_output
 
         # Class Label
         label = entity['label'].replace('<',r'&lt;').replace('>',r'&gt;')
@@ -253,7 +254,8 @@ class Langual(object):
 
         # Some extra fancy work to make title look like [food type] ([details]) , and definition like [food type]: [details]
         owl_output += '\t<rdfs:label %(language)s>%(label)s</rdfs:label>\n' % { 'label': title[0] + label, 'language': labelLang}
-        owl_output += '\t<obo:IAO_0000115 %(language)s>%(label)s</obo:IAO_0000115>\n' % { 'label': title[0] + definition, 'language': labelLang}
+        # Skip definition.  Future: Lookup as many as possible via wikipedia etc.
+        #owl_output += '\t<obo:IAO_0000115 %(language)s>%(label)s</obo:IAO_0000115>\n' % { 'label': title[0] + definition, 'language': labelLang}
 
         # LanguaL import annotation
         owl_output += "\t<obo:IAO_0000412>http://langual.org</obo:IAO_0000412>\n"
@@ -380,9 +382,9 @@ if __name__ == '__main__':
 
     # Main LanguaL import facet terms occupy FoodOn ids in range 3,400,000 -> 3,420,000
 
-    foodstruct.__main__('subset_caroteno', './CAROTENO.TXT', 3444000, 'en') # CR0010 - CR4162
-    foodstruct.__main__('subset_usda_sr8', './USDA Standard Reference 8.TXT', 3450000, 'en') # 1001 - 21140
-    foodstruct.__main__('subset_french', './FRENCH.TXT', 3500000, 'fr') # FR03010 - FR51572 (RECORD FR99999 REMOVED)
+    #foodstruct.__main__('subset_caroteno', './CAROTENO.TXT', 3444000, 'en') # CR0010 - CR4162
+    #foodstruct.__main__('subset_usda_sr8', './USDA Standard Reference 8.TXT', 3450000, 'en') # 1001 - 21140
+    #foodstruct.__main__('subset_french', './FRENCH.TXT', 3500000, 'fr') # FR03010 - FR51572 (RECORD FR99999 REMOVED)
 
     # NOT DONE YET... id mapping issue.
     #foodstruct.__main__('subset_who', './WHO.TXT', 3300000, 'en') # ISSUE: some numeric ID's end in "A" to avoid duplicates
