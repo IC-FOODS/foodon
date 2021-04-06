@@ -1157,7 +1157,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_34817 # species:Hippoglossoides platess
 http://purl.obolibrary.org/obo/NCBITaxon_34819 # species:Glyptocephalus cynoglossus (Linnaeus, 1758)
 http://purl.obolibrary.org/obo/NCBITaxon_3483 # species:Cannabis sativa L.
 http://purl.obolibrary.org/obo/NCBITaxon_348445 # species:Molva macrophthalma (Rafinesque, 1810)
-http://purl.obolibrary.org/obo/NCBITaxon_3486 # Humulus lupulus
+
 http://purl.obolibrary.org/obo/NCBITaxon_34869 # species:Rupicapra rupicapra (Linnaeus, 1758)
 http://purl.obolibrary.org/obo/NCBITaxon_3487 # family:Moraceae
 http://purl.obolibrary.org/obo/NCBITaxon_348707 # species:Coregonus nasus (Pallas, 1776)
@@ -2885,6 +2885,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_4236 # species:Lactuca sativa
 includeAllChildren
 http://purl.obolibrary.org/obo/NCBITaxon_36056 # Boletus edulis
 includeAllChildren
+http://purl.obolibrary.org/obo/NCBITaxon_3486 # Humulus lupulus
+includeAllChildren 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2 # Bacteria
