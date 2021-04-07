@@ -1,0 +1,38 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo:  <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl:  <http://www.geneontology.org/formats/oboInOwl#>
+
+select DISTINCT ?class ?label ?syn_type where {
+	# Enter branch or term here; all subclass terms will be retrieved.
+	BIND (obo:BFO_0000001 as ?search).
+	?class rdfs:subClassOf* ?search.
+	{
+		{
+			?class rdfs:label ?label.
+			BIND ('label' as ?syn_type).
+		}
+		UNION {
+			?class oboInOwl:hasSynonym ?label.
+			BIND ('synonym' as ?syn_type).
+		}
+		UNION {
+			?class oboInOwl:hasBroadSynonym ?label.
+			BIND ('broad synonym' as ?syn_type).
+		}
+		UNION {
+			?class oboInOwl:hasExactSynonym ?label.
+			BIND ('exact synonym' as ?syn_type).
+		}
+		UNION {
+			?class oboInOwl:hasNarrowSynonym ?label.
+			BIND ('narrow synonym' as ?syn_type).
+		}
+		UNION {
+			?class obo:IAO_0000118 ?label.
+			BIND ('alternative term' as ?syn_type).
+		}
+	}
+}
+ORDER BY ?class ?label 

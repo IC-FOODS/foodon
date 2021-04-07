@@ -37,6 +37,7 @@ prepare_release: all
 	cp $(ONT).owl $(ONT)_core.owl &&\
 	cp $(ONT)_core.owl $(RELEASEDIR) &&\
 	cp $(ONT)_siren.owl $(RELEASEDIR) &&\
+	cp foodon_synonyms.tsv $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR)/imports/ &&\
 	git add $(RELEASEDIR)/imports/*.owl &&\
 	(test -f subsets/*.owl && cp subsets/*.owl $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
@@ -51,9 +52,8 @@ $(ONT).owl: $(SRC)
 	$(ROBOT) merge --input $(ONT).owl --xml-entities --output $(ONT)-merged.owl
 	sed -i '.bak' 's/<owl:imports[^>]*\/>/<!-- & -->/' $(ONT)-merged.owl
 
-# Make a file that provides labels for each term in ontology.
-# Note: may want to include langual_deprecated_import.owl
-#	robot query --format TSV --input foodon-merged.owl -s owl_get_labels.sparql foodon-labels.tsv
+# Make a file that provides labels and synonyms for each term in ontology from BFO:Entity .
+	robot query --format TSV --input foodon-merged.owl -s foodon_synonyms.sparql foodon-synonyms.tsv
 
 # ALL OWL imports: chebi efo envo eo gazetteer ncbitaxon obi ro uberon langual
 # ALL OntoFox imports: chebi efo envo eo gazetteer ncbitaxon obi ro
