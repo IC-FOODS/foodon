@@ -3,4 +3,6 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 
 SELECT DISTINCT ?ontology_id ?label ?alt_label
 
-WHERE {?ontology_id rdfs:label ?label}
+WHERE {?ontology_id rdfs:label ?label
+  OPTIONAL {?ontology_id obo:IAO_0000118 ?alt_label.}
+}
