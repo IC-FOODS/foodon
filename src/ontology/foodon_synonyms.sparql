@@ -5,8 +5,12 @@ PREFIX oboInOwl:  <http://www.geneontology.org/formats/oboInOwl#>
 SELECT DISTINCT ?class ?parent ?type ?label 
 WHERE {
 
-	# Enter ontology term identifier here to include in report
-	BIND (obo:BFO_0000001 as ?search).
+	# Enter ontology term identifier here to start report with:
+	# obo:BFO_0000001 entity includes every term in ontology
+	# obo:BFO_0000040 material entity, including chemical food components and food products
+	# obo:ENVO_00010483  environmental material terms, including food materials
+	# obo:FOODON_00002403 food material terms, including all food products and additives
+	BIND (obo:BFO_0000040 as ?search). 	
 
 	# Retrieve term and all subclass terms.
 	?class rdfs:subClassOf* ?search.
