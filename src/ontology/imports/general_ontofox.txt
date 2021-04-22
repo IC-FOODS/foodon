@@ -177,6 +177,7 @@ HANCESTRO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/HANCESTRO_0004 # ancestry category
 includeAllChildren
+http://purl.obolibrary.org/obo/HANCESTRO_0308 # HasCountryOfOrigin
 
 [Top level source term URIs and target direct superclass URIs]
 
