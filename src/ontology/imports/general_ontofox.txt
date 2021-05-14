@@ -105,18 +105,16 @@ includeAllIntermediates
 [Source annotation URIs]
 includeAllAnnotationProperties
 
-
 ###########################################
 
 [Source ontology]
-ONS
+DRON
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/ONS_1000001 # diet
-includeAllChildren
-http://purl.obolibrary.org/obo/ONS_0000094 # dietary pattern
-includeAllChildren
-http://purl.obolibrary.org/obo/ONS_0000085 # Meal
+http://purl.obolibrary.org/obo/DRON_00012339  # Propolis
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
@@ -126,12 +124,6 @@ includeAllIntermediates
 
 [Source annotation URIs]
 includeAllAxioms
-#http://www.w3.org/2000/01/rdf-schema#label
-#http://purl.obolibrary.org/obo/IAO_0000115 
-#http://purl.obolibrary.org/obo/IAO_0000111
-#http://purl.obolibrary.org/obo/IAO_0000114
-#http://purl.obolibrary.org/obo/IAO_0000119
-#http://purl.obolibrary.org/obo/OBI_0001886
 
 ###########################################
 
@@ -274,6 +266,27 @@ http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 ###########################################
 
 [Source ontology]
+ONS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ONS_1000001 # diet
+includeAllChildren
+http://purl.obolibrary.org/obo/ONS_0000094 # dietary pattern
+includeAllChildren
+http://purl.obolibrary.org/obo/ONS_0000085 # Meal
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################
+
+[Source ontology]
 PECO
 
 [Low level source term URIs]
@@ -390,7 +403,10 @@ PO
 
 [Low level source term URIs]
 
-
+http://purl.obolibrary.org/obo/PO_0009032 # petal
+http://purl.obolibrary.org/obo/PO_0009073 # stigma
+http://purl.obolibrary.org/obo/PO_0009060 # calyx
+http://purl.obolibrary.org/obo/PO_0025281 # pollen
 http://purl.obolibrary.org/obo/PO_0000056 # flower bud
 http://purl.obolibrary.org/obo/PO_0000003 # whole plant
 
@@ -476,12 +492,47 @@ http://purl.obolibrary.org/obo/PO_0009029 # stamen
 http://purl.obolibrary.org/obo/PO_0025523 # tuberous root
 http://purl.obolibrary.org/obo/PO_0000017 # vascular leaf primordium
 
+http://purl.obolibrary.org/obo/PO_0025478 # androecium primordium
+http://purl.obolibrary.org/obo/PO_0009061 # androecium
+http://purl.obolibrary.org/obo/PO_0004703 # carpel primordium
+http://purl.obolibrary.org/obo/PO_0006005 # carpel anlagen
+http://purl.obolibrary.org/obo/PO_0009059 # corolla
+http://purl.obolibrary.org/obo/PO_0025432 # cotyledon anlagen
+http://purl.obolibrary.org/obo/PO_0000229 # flower meristem
+http://purl.obolibrary.org/obo/PO_0030026 # gametophore bud
+http://purl.obolibrary.org/obo/PO_0030083 # gametophore bud initial cell
+
+http://purl.obolibrary.org/obo/PO_0028003 # gametophyte development stage
+http://purl.obolibrary.org/obo/PO_0000019 # gynoecium primordium'
+http://purl.obolibrary.org/obo/PO_0025337 # life of whole plant stage
+http://purl.obolibrary.org/obo/PO_0004010 # meristematic cell
+http://purl.obolibrary.org/obo/PO_0020048 # microspore
+http://purl.obolibrary.org/obo/PO_0000018 # ovule primordium
+http://purl.obolibrary.org/obo/PO_0009058 # perianth
+http://purl.obolibrary.org/obo/PO_0000021 # petal primordium
+http://purl.obolibrary.org/obo/PO_0025430 # phyllome anlagen
+http://purl.obolibrary.org/obo/PO_0025599 # pistillate flower
+http://purl.obolibrary.org/obo/PO_0025296 # plant embryo radicle
+http://purl.obolibrary.org/obo/PO_0001097 # plant zygote stage
+http://purl.obolibrary.org/obo/PO_0025222 # reproductive shoot apex
+http://purl.obolibrary.org/obo/PO_0025433 # root anlagen
+
+http://purl.obolibrary.org/obo/PO_0000225 # peripheral zone
+http://purl.obolibrary.org/obo/PO_0025484 # petal anlagen
+http://purl.obolibrary.org/obo/PO_0006210 # protoderm
+http://purl.obolibrary.org/obo/PO_0004705 # stamen primordium
+http://purl.obolibrary.org/obo/PO_0025486 # stamen anlagen
+http://purl.obolibrary.org/obo/PO_0005598 # vascular cambium
+http://purl.obolibrary.org/obo/PO_0025431 # vascular leaf anlagen
+http://purl.obolibrary.org/obo/PO_0025223 # vegetative shoot apex
+http://purl.obolibrary.org/obo/PO_0000037 # shoot axis apex
+http://purl.obolibrary.org/obo/PO_0008016 # vegetative shoot apical meristem
+
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000003 # occurrent
-http://purl.obolibrary.org/obo/BFO_0000002 # continuant
 http://purl.obolibrary.org/obo/PO_0009012 # plant structure development stage
 http://purl.obolibrary.org/obo/PO_0025131 # plant anatomical entity
 
+http://purl.obolibrary.org/obo/PO_0025131
 [Source term retrieval setting]
 includeAllIntermediates
 
