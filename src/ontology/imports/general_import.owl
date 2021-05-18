@@ -27,205 +27,544 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+        <obo:IAO_0000111 xml:lang="en">BFO OWL specification label</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
+        <obo:IAO_0000111 xml:lang="en">BFO CLIF specification label</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</obo:IAO_0000115>
+        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/DRON_00010000 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/DRON_00010000"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/DRON_00010000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_RxCUI</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <obo:IAO_0000111>editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred term~editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label>editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <obo:IAO_0000111 xml:lang="en">example</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">example of usage</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <rdfs:label>has curation status</rdfs:label>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000118>DEFINITION</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000116</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:shorthand>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition editor</rdfs:label>
+        <rdfs:label>definition_editor</rdfs:label>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">term editor</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
+        <rdfs:label>definition_source</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000232</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:shorthand>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label>curator note</rdfs:label>
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator notes</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">For external terms/classes, the ontology from which the term was imported</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+        <obo:IAO_0000111 xml:lang="en">OBO foundry unique label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which is unique across the OBO Foundry.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The intended usage of that property is as follow: OBO foundry unique labels are automatically generated based on regular expressions provided by each ontology, so that SO could specify unique label = &apos;sequence &apos; + [label], etc. , MA could specify &apos;mouse + [label]&apos; etc. Upon importing terms, ontology developers can choose to use the &apos;OBO foundry unique label&apos; for an imported term or not. The same applies to tools .</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBO Foundry &lt;http://obofoundry.org/&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+        <obo:IAO_0000111 xml:lang="en">elucidation</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person:Barry Smith</obo:IAO_0000119>
+        <obo:IAO_0000600 xml:lang="en">Primitive terms in a highest-level ontology such as BFO are terms which are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">elucidation</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000601 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
+        <obo:IAO_0000111 xml:lang="en">has associated axiom(nl)</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000600 xml:lang="en">An axiom associated with a term expressed using natural language</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
+        <obo:IAO_0000111 xml:lang="en">has associated axiom(fol)</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001886 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001886"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001886">
+        <obo:IAO_0000111 xml:lang="en">NIAID GSCID-BRC alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>An alternative term used by the National Institute of Allergy and Infectious Diseases (NIAID) Genomic Sequencing Centers for Infectious Diseases (GSCID) and Bioinformatics Resource Centers (BRC).</obo:IAO_0000115>
+        <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">NIAID GSCID-BRC alternative term</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
+        <obo:IAO_0000115>An assertion that holds between an OWL Object Property and a temporal interpretation that elucidates how OWL Class Axioms that use this property are to be interpreted in a temporal context.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">temporal interpretation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002422"/>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002416 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002416">
+        <obo:IAO_0000115>An assertion that involves at least one OWL object that is intended to be expanded into one or more logical axioms. The logical expansion can yield axioms expressed using any formal logical system, including, but not limited to OWL2-DL.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">logical macro assertion</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002421 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002421">
+        <obo:IAO_0000115>A logical macro assertion whose domain is an IRI for a property</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">logical macro assertion on a property</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002416"/>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002422 -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002422">
+        <obo:IAO_0000115>Used to annotate object properties to describe a logical meta-property or characteristic of the object property.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">logical macro assertion on an object property</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002421"/>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/chebi/charge -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/chebi/formula -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/chebi/mass -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/> -->
     
 
 
     <!-- http://purl.obolibrary.org/obo/chebi/smiles -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/> -->
     
 
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label xml:lang="en">database cross reference</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative_term</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:comment>disease_ontology</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonym -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym">
+        <rdfs:label xml:lang="en">has synonym</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/> -->
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</obo:IAO_0000111>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/> -->
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/> -->
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+        <obo:IAO_0000589>is defined by</obo:IAO_0000589>
+    </owl:AnnotationProperty> -->
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <!-- <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <obo:IAO_0000111>label</obo:IAO_0000111>
+        <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+    </owl:AnnotationProperty> -->
     
 
 
@@ -30674,7 +31013,6 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rwalls</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-03-31T07:05:48Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:resource="http://www.langual.org/langual_thesaurus.asp?termid=C0279"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PO_GIT:319</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polen (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pollen grain (exact)</oboInOwl:hasExactSynonym>
@@ -32306,6 +32644,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000160">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segment of the alimentary canal extending from the stomach to the anus and, in humans and other mammals, consists of two segments, the small intestine and the large intestine.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bowel</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestine</rdfs:label>
     </owl:Class>
     
@@ -32316,6 +32655,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of blood</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertebrate blood</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</rdfs:label>
     </owl:Class>
     
@@ -32327,6 +32668,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism at the blastula stage - an early stage of embryonic development in animals. It is produced by cleavage of a fertilized ovum and consists of a spherical layer of around 128 cells surrounding a central fluid-filled cavity called the blastocoel. The blastula follows the morula and precedes the gastrula in the developmental sequence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blastula embryo</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blastula</rdfs:label>
     </owl:Class>
     
@@ -32349,6 +32691,18 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002472"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of the hindlimb between pelvis and the knee, corresponding to the femur.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hind limb stylopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hind limb stylopodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hind propodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb propodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb stylopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb stylopodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proximal segment of free lower limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stylopod of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stylopod of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stylopod of lower limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thigh</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper leg</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb stylopod</rdfs:label>
     </owl:Class>
     
@@ -32359,6 +32713,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000468">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that is an individual member of a species and consists of more than one cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-cellular organism</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular organism</rdfs:label>
     </owl:Class>
     
@@ -32370,6 +32725,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic organism</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryo</rdfs:label>
     </owl:Class>
     
@@ -32390,6 +32746,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chambered heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertebrate heart</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart</rdfs:label>
     </owl:Class>
     
@@ -32420,6 +32778,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000978">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of the hindlimb that contains both the stylopod and zeugopod.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetrapod leg</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leg</rdfs:label>
     </owl:Class>
     
@@ -32430,6 +32789,9 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001013">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of connective tissue composed of adipocytes enmeshed in areolar tissue</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fat tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty tissue</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adipose tissue</rdfs:label>
     </owl:Class>
     
@@ -32450,6 +32812,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal element that is composed of bone tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone organ</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone element</rdfs:label>
     </owl:Class>
     
@@ -32490,6 +32853,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001911">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandula mammaria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactiferous gland</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary gland</rdfs:label>
     </owl:Class>
     
@@ -32500,6 +32865,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001913">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An emulsion of fat globules within a fluid that is secreted by the mammary gland during lactation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary gland milk</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk</rdfs:label>
     </owl:Class>
     
@@ -32510,6 +32876,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiration organ that develops as an outpocketing of the esophagus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pulmo</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</rdfs:label>
     </owl:Class>
     
@@ -32520,6 +32887,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The organ covering the body that consists of the dermis and epidermis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entire skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin organ</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin of body</rdfs:label>
     </owl:Class>
     
@@ -32560,6 +32929,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002370">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymus gland</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymus organ</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymus</rdfs:label>
     </owl:Class>
     
@@ -32570,6 +32941,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002371">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the soft tissue that fills the cavities of bones</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla ossea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medulla ossium</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow</rdfs:label>
     </owl:Class>
     
@@ -32580,6 +32953,9 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002385">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle tissue is a contractile tissue made up of actin and myosin fibers[GO].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscular tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of muscle tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textus muscularis</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle tissue</rdfs:label>
     </owl:Class>
     
@@ -32591,6 +32967,29 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002471"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The middle limb segment of the pectoral free limb, between the autopod and stylopod segments. Includes as parts the forelimb zeugopodial skeleton, which includes as parts the radius and ulna, or their cartilage precursors, or evolutionary variants.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antebrachial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antebrachium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibrachium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arm middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arm zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brachial region middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brachial region zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forearm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb epipodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb zeugopodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb zygopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intermediate segment of free upper limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower segment of arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle limb segment of arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle limb segment of brachial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle limb segment of forelimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle limb segment of proximal segment of free upper limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regio antebrachialis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopod of arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopod of brachial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopod of forelimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopod of proximal segment of free upper limb</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb zeugopod</rdfs:label>
     </owl:Class>
     
@@ -32601,6 +33000,14 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002471">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The middle free limb segment, between the autopod and stylopod segments. Includes as parts the zeugopodial skeleton. Examples: There are two types of zeugopod: forelimb zeugopod (aka forearm), hindlimb zeugopod (aka crus).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epipodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle free limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopod limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopodial limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zygopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zygopodium</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopod</rdfs:label>
     </owl:Class>
     
@@ -32611,6 +33018,10 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002472">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The proximal free limb segment. Includes as parts the stylopod skeleton.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proximal free limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stylopodial limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stylopodium</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stylopod</rdfs:label>
     </owl:Class>
     
@@ -32633,6 +33044,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A distinct juvenile form many animals undergo before metamorphosis into adults. Animals with indirect development such as insects, amphibians, or cnidarians typically have a larval phase of their life cycle.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">larval organism</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">larva</rdfs:label>
     </owl:Class>
     
@@ -32688,6 +33100,17 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002472"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of the forelimb between pectoral region and the elbow, corresponding to the humerus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brachial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brachium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fore propodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb propodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb stylopodial element</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb stylopodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proximal segment of free upper limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regio brachialis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stylopod of arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stylopod of forelimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper arm</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb stylopod</rdfs:label>
     </owl:Class>
     
@@ -32699,6 +33122,34 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002471"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calf of leg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crus of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hind limb middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hind limb zeudopodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hind limb zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb epipodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb zeudopodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb zeugopodium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intermediate segment of free lower limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower extremity middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower extremity zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lower leg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle limb segment of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle limb segment of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior curral region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior leg region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior part of leg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior region of leg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regio cruris posterior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regio surae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shank</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sura</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sural region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopod of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zeugopod of hindlimb</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb zeugopod</rdfs:label>
     </owl:Class>
     
@@ -32710,6 +33161,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An embryo at the neurula stage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurula</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurula embryo</rdfs:label>
     </owl:Class>
     
@@ -32721,6 +33173,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism at the gastrula stage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrula embryo</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrula</rdfs:label>
     </owl:Class>
     
@@ -32731,6 +33184,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005052">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The muscular enlargement of the alimentary canal that has usually thick muscular walls and a tough horny lining for grinding the food and when the crop is present follows it and the proventriculus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastric mill</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gigerium</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gizzard</rdfs:label>
     </owl:Class>
     
@@ -32741,6 +33196,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005079">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A product of the somatic follicle cell epithelium and a structure that supports the egg in a hostile environment, minimizing water loss whilst allowing gas exchanges essential for embryonic respiration[GO].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">egg shell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eggshell</rdfs:label>
     </owl:Class>
     
@@ -32751,6 +33207,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006314">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liquid components of living organisms. includes fluids that are excreted or secreted from the body as well as body water that normally is not.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body fluid</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bodily fluid</rdfs:label>
     </owl:Class>
     
@@ -32771,6 +33228,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006860">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thin membranous, sometimes alveolated sac in the dorsal portion of the abdominal cavity. Contains a varying mixture of gases, not identical to the composition of air. May be one, two or three chambered. May be connected to the gut by a tube, the ductus pneumaticus (then called physostomous) or unconnected (then called physoclistous).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gas bladder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swimbladder</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swim bladder</rdfs:label>
     </owl:Class>
     
@@ -32793,6 +33252,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multicellular organism that is at the juvenile stage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile organism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juveniles</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexually immature organism</rdfs:label>
     </owl:Class>
     
@@ -32804,7 +33265,18 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multicellular organism that existence_ends_with a post-juvenile adult stage and existence_starts_with a post-juvenile adult stage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adults</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adult organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007113">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poisonous animal secretions forming fluid mixtures of many different enzymes, toxins, and other substances. These substances are produced in specialized glands and secreted through specialized delivery systems (nematocysts, spines, fangs, etc.) for disabling prey or predator.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venom</rdfs:label>
     </owl:Class>
     
 
@@ -32856,6 +33328,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002548"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planktonic and feeding larval form that possesses limb-like outgrowths bearing ciliated bands.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pluteus larva</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">echinopluteus larva</rdfs:label>
     </owl:Class>
     
@@ -32886,6 +33359,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008944">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albumen is the clear liquid contained within an egg and consists of water and proteins, among which are ovomucin and ovomucoid. It protects the egg yolk and provides additional nutrition for the growth of the embryo.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">egg white</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">albumen</rdfs:label>
     </owl:Class>
     
@@ -32941,6 +33415,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multicellular organism that existence_starts_with a post-embryonic stage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postnatal organism</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-embryonic organism</rdfs:label>
     </owl:Class>
     
@@ -34412,45 +34887,6 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cob.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -34478,37 +34914,7 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
@@ -34526,10 +34932,22 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
@@ -34575,6 +34993,63 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cdno.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
     </rdf:Description>
     
 
@@ -34732,8 +35207,8 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pound</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010040">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teaspoon</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0010051">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large calorie</rdfs:label>
@@ -34743,5 +35218,5 @@ Examples: green ash (Fraxinus pennsylvanicum) and tree-of-heaven (Ailanthus alti
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

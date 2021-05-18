@@ -5224,6 +5224,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_13551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6993"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gryllodes sigillatus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_135518 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_135518">
@@ -42550,6 +42560,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33340"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orthoptera</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_69930 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_69930">
@@ -42574,7 +42594,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33340"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6993"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grasshoppers and locusts</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caelifera</rdfs:label>

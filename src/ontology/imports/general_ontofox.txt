@@ -545,6 +545,9 @@ includeAllAxioms
 #http://purl.obolibrary.org/obo/IAO_0000119
 #http://purl.obolibrary.org/obo/OBI_0001886
 
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://www.w3.org/2002/07/owl#deprecated
+http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 
 ###########################################
 
@@ -643,6 +646,7 @@ http://purl.obolibrary.org/obo/IAO_0000114
 http://purl.obolibrary.org/obo/IAO_0000119
 http://purl.obolibrary.org/obo/OBI_0001886
 
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 http://www.w3.org/2002/07/owl#deprecated
 http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 
@@ -707,6 +711,7 @@ http://purl.obolibrary.org/obo/UBERON_0008944 # albumen
 http://purl.obolibrary.org/obo/UBERON_0001013 # adipose tissue
 
 http://purl.obolibrary.org/obo/UBERON_0008270 # mollusc shell
+http://purl.obolibrary.org/obo/UBERON_0007113 # venom
 
 [Top level source term URIs and target direct superclass URIs]
 
@@ -721,7 +726,7 @@ http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000114
 http://purl.obolibrary.org/obo/IAO_0000119
 http://purl.obolibrary.org/obo/OBI_0001886
-
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 http://www.w3.org/2002/07/owl#deprecated
 http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 

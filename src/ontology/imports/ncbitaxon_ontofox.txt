@@ -11,6 +11,8 @@ NCBITaxon
 # NEED Mitragyna javanica
 
 
+http://purl.obolibrary.org/obo/NCBITaxon_13551 # Gryllodes sigillatus
+
 http://purl.obolibrary.org/obo/NCBITaxon_138043 # Senegalia senegal
 
 http://purl.obolibrary.org/obo/NCBITaxon_138044 # Vachellia seyal
