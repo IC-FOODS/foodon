@@ -3287,9 +3287,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03410001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03410001">
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411564"/>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B0001</oboInOwl:hasDbXref>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used only if so little is known about the food source that not even *ANIMAL USED AS FOOD SOURCE*, *PLANT USED AS FOOD SOURCE*, *ALGAE OR FUNGUS AS FOOD SOURCE* or *CHEMICAL FOOD SOURCE* can be assigned.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: food source not known (deprecated)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -17345,11 +17343,6 @@ If used for food supplement substances, this descriptor refers to the European C
         <obo:IAO_0000115 xml:lang="en">Cellulose used as a food additive.</obo:IAO_0000115>
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301343"/>
-        <oboInOwl:hasDbXref>Codex::460</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Europe::460</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=B4416</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.langual.org/langual_thesaurus.asp?termid=C0220</oboInOwl:hasDbXref>
-        <rdfs:comment xml:lang="en">LanguaL curation note: See &quot;food additive&quot; comments.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete: cellulose</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -20667,7 +20660,6 @@ If used for food supplement substances, this descriptor refers to the European C
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420220">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301343"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LANGUAL:C0220</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: cellulose</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -21917,8 +21909,8 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4558"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414174">
-        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91752"/>
+        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414270">
@@ -21954,8 +21946,8 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420289">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PO_0000055"/>
         <rdfs:label xml:lang="en">obsolete: bud</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">A small swelling or projection on a plant, from which a shoot, cluster of leaves, or flower develops (Source: Webster&apos;s)</obo:IAO_0000115>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000115 xml:lang="en">A small swelling or projection on a plant, from which a shoot, cluster of leaves, or flower develops (Source: Webster&apos;s)</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420310">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PO_0009029"/>
