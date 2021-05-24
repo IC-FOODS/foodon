@@ -711,7 +711,8 @@ http://purl.obolibrary.org/obo/UBERON_0008944 # albumen
 http://purl.obolibrary.org/obo/UBERON_0001013 # adipose tissue
 
 http://purl.obolibrary.org/obo/UBERON_0008270 # mollusc shell
-http://purl.obolibrary.org/obo/UBERON_0007113 # venom
+http://purl.obolibrary.org/obo/UBERON_0000456 # secretion of exocrene gland
+http://purl.obolibrary.org/obo/UBERON_0007113 #     venom
 
 [Top level source term URIs and target direct superclass URIs]
 
