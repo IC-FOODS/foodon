@@ -944,33 +944,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_00003076 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003076">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009005"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41679"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003431"/>
-        <obo:IAO_0000115 xml:lang="en">A root of a daikon plant (Raphanus sativus var. niger).</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Daikon</obo:IAO_0000119>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-24T21:44:52</dc:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">chinese radish</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">daikon</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">japanese radish</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">kaiware daikon</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">daikon (whole)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FOODON_00003093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003093"/>
@@ -6638,6 +6611,33 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T03:06:45</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">durian</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">durian (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003666">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_41679"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003431"/>
+        <obo:IAO_0000115 xml:lang="en">A root of a daikon plant (Raphanus sativus var. niger).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Daikon</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-24T21:44:52</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">chinese radish</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">daikon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">japanese radish</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">kaiware daikon</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">daikon (whole)</rdfs:label>
     </owl:Class>
     
 
