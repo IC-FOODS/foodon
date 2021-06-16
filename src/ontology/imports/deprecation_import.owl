@@ -21615,7 +21615,6 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     <!-- http://purl.obolibrary.org/obo/FOODON_03530001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530001">
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530005"/>
         <rdfs:label xml:lang="en">obsolete: adjunct characteristics of food not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -21898,6 +21897,11 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: muskmelon plant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412121">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
+        <rdfs:label xml:lang="en">obsolete: european grape plant</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412474">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29727"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -21909,8 +21913,8 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4558"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414174">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91752"/>
         <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91752"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414270">
