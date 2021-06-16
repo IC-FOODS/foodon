@@ -3,21 +3,21 @@ NOTE: --input command ONLY ALLOWS ONE INPUT file; if you do multiple --input
 only LAST one is used.
 
 robot template --template wine.tsv \
-  --input "../ro_import.owl" \
+  --input "../general_import.owl" \
   --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" \
   --prefix "schema:http://schema.org/" \
   --ontology-iri "http://purl.obolibrary.org/obo/foodon/imports/robot_wine.owl" \
   --output ../robot_wine.owl
 
 robot template --template pasta.tsv \
-  --input "../ro_import.owl" \
+  --input "../general_import.owl" \
   --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" \
   --prefix "schema:http://schema.org/" \
   --ontology-iri "http://purl.obolibrary.org/obo/foodon/imports/robot_pasta.owl" \
   --output ../robot_pasta.owl
 
 robot template --template fdc.tsv \
-  --input "../ro_import.owl" \
+  --input "../general_import.owl" \
   --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" \
   --prefix "schema:http://schema.org/" \
   --prefix "rdfs:http://www.w3.org/2000/01/rdf-schema#" \
