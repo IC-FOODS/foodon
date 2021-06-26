@@ -77,6 +77,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002233 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002233">
+        <rdfs:label xml:lang="en">has input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002234 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002234">
+        <rdfs:label xml:lang="en">has output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -99,7 +115,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002583 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002583">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">The Chardonnay grape plant is the result of a cross between the Pinot noir and Gouais blanc (Heunisch) grape varieties. It produces a green-skinned grape variety used in the production of white wine.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Chardonnay</obo:IAO_0000119>
@@ -191,7 +207,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002587">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Chenin blanc grapes are a White wine grape variety from the Loire Valley of France. Its high acidity means it can be used to make everything from sparkling wines to well-balanced dessert wines, although it can produce very bland, neutral wines if the vine&apos;s natural vigor is not controlled.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lauren Tindale</obo:IAO_0000117>
@@ -231,7 +247,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002589 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002589">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Malbec grapes are a purple grape variety used in making red wine. The grapes tend to have an inky dark color and robust tannins, and are known as one of the six grapes allowed in the blend of red Bordeaux wine. The French plantations of Malbec are now found primarily in Cahors in South West France. It is increasingly celebrated as an Argentine varietal wine and is being grown around the world.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lauren Tindale</obo:IAO_0000117>
@@ -270,7 +286,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002591 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002591">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Merlot is a dark blue-colored wine grape variety, that is used as both a blending grape and for varietal wines.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lauren Tindale</obo:IAO_0000117>
@@ -310,7 +326,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002593 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002593">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Pinot blanc is a white wine grape. It is a point genetic mutation of Pinot noir.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lauren Tindale</obo:IAO_0000117>
@@ -354,7 +370,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002595">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Pinot gris is a white wine grape variety (mutation) of the Pinot family which shares its genetic fingerprint with Pinot Noir, Pinot Blanc et al. . Pinot gris is grown around the globe with the &quot;spicy&quot; full-bodied Alsatian and lighter-bodied, more acidic Italian styles being most widely recognized.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginny Pichler</obo:IAO_0000117>
@@ -401,7 +417,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002597 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002597">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Pinot noir grape is a red wine grape variety. The name is derived from the French words for pine and black. The word pine alludes to the grape variety having tightly clustered, pine cone-shaped bunches of fruit. Pinot noir grapes are grown around the world, mostly in the cooler climates, and the grape is chiefly associated with the Burgundy region of France.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shannon Russell</obo:IAO_0000117>
@@ -443,7 +459,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002599 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002599">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Pinotage is a red wine grape that is South Africa&apos;s signature variety. It was bred there in 1925 as a crossbetween Pinot noir and Cinsaut. The grape is a viticultural intraspecific cross of two varieties of Vitis vinifera, not an interspecific hybrid.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginny Pichler</obo:IAO_0000117>
@@ -498,7 +514,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002602 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002602">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Riesling grape is an aromatic white grape variety displaying flowery, almost perfumed, aromas as well as high acidity.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginny Pichler</obo:IAO_0000117>
@@ -540,7 +556,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002604 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002604">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Sangiovese is a red Italian wine grape variety that derives its name from the Latin sanguis Jovis, &quot;the blood of Jupiter&quot;.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginny Pichler</obo:IAO_0000117>
@@ -585,7 +601,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Sauvignon blanc is a green-skinned grape variety that originates from the Bordeaux region of France. The grape most likely gets its name from the French words sauvage (&quot;wild&quot;) and blanc (&quot;white&quot;) due to its early origins as an indigenous grape in South West France.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shannon Russell</obo:IAO_0000117>
@@ -628,7 +644,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002608 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002608">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Semillon is a golden-skinned grape used to make dry and sweet white wines, mostly in France and Australia.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginny Pichler</obo:IAO_0000117>
@@ -670,7 +686,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002610 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002610">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Glera is a white variety of grape of Slovenian origin, which was brought to the village of Prosecco from Slovenia&apos;s Karst region. Glera was, until 2009, mostly referred to as Prosecco. It is mainly cultivated for use in sparkling Italian wine styles.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginny Pichler</obo:IAO_0000117>
@@ -744,7 +760,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002613 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002613">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Syrah is a dark-skinned grape variety grown throughout the world and used primarily to produce red wine. In 1999, Syrah was found to be the offspring of two obscure grapes from southeastern France, Dureza and Mondeuse Blanche.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginny Pichler</obo:IAO_0000117>
@@ -786,7 +802,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002615">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Tempranillo is a black grape variety widely grown to make full-bodied red wines in its native Spain.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
@@ -831,7 +847,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002618 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002618">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Zinfandel is a variety of black-skinned wine grape.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ginny Pichler</obo:IAO_0000117>
@@ -880,7 +896,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002620 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002620">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Frappato di Vittoria or Frappato is a red Italian wine grape variety planted primarily in Sicily.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
@@ -921,7 +937,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002622 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002622">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Gamay is a purple-colored grape variety used to make red wines, most notably grown in Beaujolais and in the Loire Valley around Tours.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
@@ -963,7 +979,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002624">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Gewürztraminer is an aromatic wine grape variety, used in white wines, and performs best in cooler climates.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
@@ -1006,7 +1022,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002626">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Carignan (also known as Carignane) is a red grape variety of Spanish origin that is more commonly found in French wine but is widely planted throughout the western Mediterranean and around the globe.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
@@ -1053,7 +1069,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002628 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002628">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Grenache is one of the most widely planted red wine grape varieties in the world.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
@@ -1095,7 +1111,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002630 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002630">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Barbera is a red Italian wine grape variety that, as of 2000, was the third most-planted red grape variety in Italy (after Sangiovese and Montepulciano). It produces good yields and is known for deep color, full body, low tannins and high levels of acid.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
@@ -1122,7 +1138,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002640 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002640">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">The Cabernet Sauvignon grape plant originates from a cross between Cabernet Franc and Sauvignon blanc varieties. It produces Cabernet Sauvignon grapes, a red wine grape variety.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emma Griffiths</obo:IAO_0000117>
@@ -1149,7 +1165,7 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002863 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002863">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Blaufränkisch (German for blue Frankish) is a dark-skinned variety of grape used for red wine.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
@@ -1182,7 +1198,7 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">Blaufränkisch wine is a red wine varietal produced entirely from Blaufränkisch grapes.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A red wine varietal produced entirely from Blaufränkisch grapes.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Blaufr%C3%A4nkisch</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Blaufränkisch wine</rdfs:label>
@@ -1193,14 +1209,16 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00002868 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002868">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Mourvèdre (also known as Mataró or Monastrell) is a red wine grape variety that is grown in many regions around the world including the Rhône and Provence regions of France, the Valencia and Jumilla denominaciones de origen of Spain, as well as the Balearic Islands, California and Washington and the Australian regions of South Australia and New South Wales, as well as South Africa.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Mourv%C3%A8dre</obo:IAO_0000119>
         <schema:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Balzac_noir-mourvedre.jpg/451px-Balzac_noir-mourvedre.jpg"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Mataró</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Monastrell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="es">Monastrell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">Mourvèdre grape | Mataró | Monastrell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Mourvèdre grape</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Mourvèdre grape plant</rdfs:label>
     </owl:Class>
     
@@ -1291,10 +1309,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FOODON_03412121 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29760 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03412121">
-        <rdfs:label xml:lang="en">european grape plant</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29760">
+        <obo:IAO_0000115 xml:lang="en">NCBITaxon:29760</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Vitis vinifera</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
