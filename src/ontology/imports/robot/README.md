@@ -4,23 +4,16 @@ only LAST one is used.
 
 robot template --template wine.tsv \
   --input "../general_import.owl" \
-  --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" \
-  --prefix "schema:http://schema.org/" \
   --ontology-iri "http://purl.obolibrary.org/obo/foodon/imports/robot_wine.owl" \
   --output ../robot_wine.owl
 
 robot template --template pasta.tsv \
   --input "../general_import.owl" \
-  --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" \
-  --prefix "schema:http://schema.org/" \
   --ontology-iri "http://purl.obolibrary.org/obo/foodon/imports/robot_pasta.owl" \
   --output ../robot_pasta.owl
 
 robot template --template fdc.tsv \
   --input "../general_import.owl" \
-  --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" \
-  --prefix "schema:http://schema.org/" \
-  --prefix "rdfs:http://www.w3.org/2000/01/rdf-schema#" \
   --ontology-iri "http://purl.obolibrary.org/obo/foodon/imports/robot_fdc.owl" \
   --output ../robot_fdc.owl
 
@@ -32,9 +25,6 @@ robot template --template organismal_materials.tsv \
 
 robot template --template process.tsv\
   --input "../../foodon-merged.owl" \
-  --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" \
-  --prefix "schema:http://schema.org/" \
-  --prefix "rdfs:http://www.w3.org/2000/01/rdf-schema#" \
   --ontology-iri "http://purl.obolibrary.org/obo/foodon/imports/robot_process_import.owl" \
   --output ../robot_process_import.owl
 
