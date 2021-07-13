@@ -392,6 +392,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002722">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460238"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Husking of corn is the process of removing its outer layers, leaving only the cob or seed rack of the corn</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym xml:lang="en">husking</oboInOwl:hasExactSynonym>
@@ -404,11 +410,23 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002732">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03460225"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002733"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A process of applying a seasoning mixture to a given food.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damion Dooley</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym xml:lang="en">seasoning</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">food seasoning process</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002733"/>
     
 
 
@@ -510,6 +528,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003874"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03000001">
@@ -530,6 +554,12 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03307052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03307539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307539"/>
     
 
 
@@ -564,6 +594,7 @@
         <obo:IAO_0000115 xml:lang="en">Cooked at moderate to high levels of heat in which no liquid is added and only small amounts of fat may be added to prevent sticking.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.langual.org/langual_thesaurus.asp?termid=G0004</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym xml:lang="en">dry cooked</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL</rdfs:comment>
         <rdfs:label xml:lang="en">cooking by dry heat</rdfs:label>
     </owl:Class>
     
@@ -677,6 +708,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450012"/>
+        <obo:IAO_0000115 xml:lang="en">A process of cooking by moist heat which is effected by hot water or water-based liquid in a container.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.langual.org/langual_thesaurus.asp?termid=G0013</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">cooking in water or water-based liquid</rdfs:label>
     </owl:Class>
@@ -693,9 +725,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002688"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Cooked in boiling water at 100 degrees C (212 degrees F).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A cooking in water or water-based liquid process in which the liquid is boiling.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.langual.org/langual_thesaurus.asp?termid=G0014</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">boiling</rdfs:label>
+        <rdfs:comment xml:lang="en">Water at standard atmospheric pressure (in other words, at sea level) will boil at a temperature of 100 degrees C (212 degrees F).</rdfs:comment>
+        <rdfs:label xml:lang="en">boiling in container</rdfs:label>
     </owl:Class>
     
 
@@ -2487,6 +2520,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03470116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002419"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03470145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03307539"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.langual.org/langual_thesaurus.asp?termid=J0116</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">dehydration | drying</oboInOwl:hasExactSynonym>
         <rdfs:comment xml:lang="en">LanguaL curation note: Used when the water activity has been lowered enough to achieve preservation. Also index *WATER REMOVED* in *H. TREATMENT APPLIED*.</rdfs:comment>
@@ -3195,5 +3234,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

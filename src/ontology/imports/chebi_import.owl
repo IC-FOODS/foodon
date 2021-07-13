@@ -226,7 +226,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_140785">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23333"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkylcob(III)alamin</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-cob(III)alamin</rdfs:label>
     </owl:Class>
     
 
@@ -553,6 +553,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_168306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_168306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13&apos;-Carboxy-gamma-tocopherol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16966 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16966">
@@ -868,7 +878,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17716">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24405"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A  glycosylglucose disaccharide, found most notably in milk, that consists of D-galactose and D-glucose fragments bonded through a beta-1-&gt;4 glycosidic linkage. The glucose fragment can be in either the alpha- or beta-pyranose form, whereas the galactose fragment can only have the beta-pyranose form.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycosylglucose disaccharide, found most notably in milk, that consists of D-galactose and D-glucose fragments bonded through a beta-1-&gt;4 glycosidic linkage. The glucose fragment can be in either the alpha- or beta-pyranose form, whereas the galactose fragment can only have the beta-pyranose form.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactose</rdfs:label>
     </owl:Class>
@@ -4368,6 +4378,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35156"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The calcium salt of D-gluconic acid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium gluconate</rdfs:label>
     </owl:Class>
@@ -5960,7 +5971,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51958"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of naturally occurring compounds and synthetic analogues, based on the cyclopenta[a]phenanthrene carbon skeleton, partially or completely hydrogenated; there are usually methyl groups at C-10 and C-13, and often an alkyl group at C-17. By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred. Natural steroids are derived biogenetically from squalene, so may be considered as triterpenoids.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of naturally occurring compounds and synthetic analogues, based on the cyclopenta[a]phenanthrene carbon skeleton, partially or completely hydrogenated; there are usually methyl groups at C-10 and C-13, and often an alkyl group at C-17. By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred. Natural steroids are derived biogenetically from squalene which is a triterpene.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steroid</rdfs:label>
     </owl:Class>
@@ -6379,6 +6390,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33892"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hexacyanoferrate salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17522"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycosyl alditol</rdfs:label>
     </owl:Class>
     
 
@@ -8962,6 +8983,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_68428">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22390"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36307"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alpha-D-glucoside consisting of D-glucitol having an alpha-D-glucosyl residue attached at the 4-position. Used as a sugar substitute.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maltitol</rdfs:label>
@@ -9133,8 +9155,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_75323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disaccharide consisting of beta-D-galactopyranose and D-glucitol joined by a 1-&gt;4 glycosidic bond. It is used as a laxative, as an excipient, and as replacement bulk sweetener in some low-calorie foods.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36307"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycosyl alditol consisting of beta-D-galactopyranose and D-glucitol joined by a 1-&gt;4 glycosidic bond. It is used as a laxative, as an excipient, and as replacement bulk sweetener in some low-calorie foods.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactitol</rdfs:label>
     </owl:Class>
