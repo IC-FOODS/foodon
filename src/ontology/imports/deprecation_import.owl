@@ -21559,7 +21559,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520001">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520010"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0001</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: geographic place or region not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -21571,7 +21571,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520010">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
         <rdfs:label xml:lang="en">obsolete: geographic places and regions</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -21605,7 +21605,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520509">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
         <rdfs:label xml:lang="en">obsolete: continents, regions and countries</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -21884,8 +21884,8 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411517">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3486"/>
         <rdfs:label xml:lang="en">obsolete: hops plant</rdfs:label>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3486"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411655">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -21913,13 +21913,13 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4558"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414174">
-        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91752"/>
+        <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414270">
-        <rdfs:label xml:lang="en">obsolete: banana plant</rdfs:label>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4640"/>
+        <rdfs:label xml:lang="en">obsolete: banana plant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414316">
@@ -21933,8 +21933,8 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414554">
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03414184"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <rdfs:label xml:lang="en">obsolete: wood cauliflower</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420165">
