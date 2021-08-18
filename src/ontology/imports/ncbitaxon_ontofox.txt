@@ -7,8 +7,20 @@ NCBITaxon
 [Low level source term URIs]
 
 
+
+
+http://purl.obolibrary.org/obo/NCBITaxon_271697 # Melothria sphaerocarpa
+
 # NEED Smilax aristolochiifolia / Mexican sasparilla
 # NEED Mitragyna javanica
+
+
+
+http://purl.obolibrary.org/obo/NCBITaxon_3668 # Lagenaria siceraria (Giant gourd / Calabash)
+
+http://purl.obolibrary.org/obo/NCBITaxon_39388 # Verbascum thapsus
+
+http://purl.obolibrary.org/obo/NCBITaxon_5098 # Monascus purpureus
 
 http://purl.obolibrary.org/obo/NCBITaxon_64040 # Actaea racemosa
 
@@ -1247,7 +1259,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_3647 # family:Caricaceae
 http://purl.obolibrary.org/obo/NCBITaxon_3649 # species:Carica papaya L.
 http://purl.obolibrary.org/obo/NCBITaxon_3650 # family:Cucurbitaceae
 http://purl.obolibrary.org/obo/NCBITaxon_365050 # species:Sardinella zunasi (Bleeker, 1854)
-http://purl.obolibrary.org/obo/NCBITaxon_3654 # species:Citrullus lanatus (Thunb.) Matsumura & Nakai
+http://purl.obolibrary.org/obo/NCBITaxon_3654 # species:Citrullus lanatus
 http://purl.obolibrary.org/obo/NCBITaxon_3655 # genus:Cucumis L.
 http://purl.obolibrary.org/obo/NCBITaxon_365580 # species:Pangasius larnaudii Bocourt, 1866
 http://purl.obolibrary.org/obo/NCBITaxon_365581 # species:Pangasius sanitwongsei Smith, 1931
@@ -1612,12 +1624,12 @@ http://purl.obolibrary.org/obo/NCBITaxon_445224 # species:Parapenaeus longirostr
 http://purl.obolibrary.org/obo/NCBITaxon_445361 # species:Saurida tumbil (Bloch, 1795)
 http://purl.obolibrary.org/obo/NCBITaxon_445362 # species:Sphyraena jello Cuvier in Cuvier and Valenciennes, 1829
 http://purl.obolibrary.org/obo/NCBITaxon_4454 # family:Araceae
-http://purl.obolibrary.org/obo/NCBITaxon_44588 # species:Panax quinquefolius L.
+http://purl.obolibrary.org/obo/NCBITaxon_44588 # species:Panax quinquefolius
 http://purl.obolibrary.org/obo/NCBITaxon_44599 # family:Pinnidae Leach, 1819
 http://purl.obolibrary.org/obo/NCBITaxon_4460 # Colocasia esculenta
 http://purl.obolibrary.org/obo/NCBITaxon_44609 # Verpa bohemica
 http://purl.obolibrary.org/obo/NCBITaxon_446348 # species:Malva verticillata L.
-http://purl.obolibrary.org/obo/NCBITaxon_44685 # species:Panax japonicus (T. Nees) C.A. Mey.
+http://purl.obolibrary.org/obo/NCBITaxon_44685 # species:Panax japonicus
 http://purl.obolibrary.org/obo/NCBITaxon_4479 # family:Poaceae
 http://purl.obolibrary.org/obo/NCBITaxon_44929 # Gnetum africanum
 http://purl.obolibrary.org/obo/NCBITaxon_4498 # Avena sativa
@@ -2722,7 +2734,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_92050 # species:Macruronus magellanicus
 http://purl.obolibrary.org/obo/NCBITaxon_9224 # Parrot
 http://purl.obolibrary.org/obo/NCBITaxon_925390 # Arachis hypogaea var. vulgaris
 http://purl.obolibrary.org/obo/NCBITaxon_9265 # family:Didelphidae Gray, 1821
-http://purl.obolibrary.org/obo/NCBITaxon_92921 # species:Silybum marianum (L.) Gaertn.
+http://purl.obolibrary.org/obo/NCBITaxon_92921 # species:Silybum marianum
 http://purl.obolibrary.org/obo/NCBITaxon_93046 # species:Sinocalamus latiflorus (Munro) McClure
 http://purl.obolibrary.org/obo/NCBITaxon_9307 # family:Macropodidae Gray, 1821
 http://purl.obolibrary.org/obo/NCBITaxon_9312 # genus:Macropus Shaw, 1790

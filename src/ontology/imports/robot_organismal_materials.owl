@@ -10293,7 +10293,7 @@
         <oboInOwl:hasExactSynonym xml:lang="en">river tamarind</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">white leadtree</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">white popinac</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">river tamarind (whole)</rdfs:label>
+        <rdfs:label xml:lang="en">river tamarind seed (whole)</rdfs:label>
     </owl:Class>
     
 
