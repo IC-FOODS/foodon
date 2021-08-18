@@ -8,7 +8,9 @@ CHEBI
 
 http://purl.obolibrary.org/obo/CHEBI_83162 # propolis extract / A mixture resulting from extraction from propolis.
 
-http://purl.obolibrary.org/obo/CHEBI_33290 # food
+http://purl.obolibrary.org/obo/CHEBI_46245 # coenzyme Q10
+
+http://purl.obolibrary.org/obo/CHEBI_33290 # food [ROLE!!!!]
 # http://purl.obolibrary.org/obo/CHEBI_50906 # role
 http://purl.obolibrary.org/obo/CHEBI_24432 #    biological role
 http://purl.obolibrary.org/obo/CHEBI_52211 #   physiological role

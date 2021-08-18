@@ -28,6 +28,11 @@ robot template --template process.tsv\
   --ontology-iri "http://purl.obolibrary.org/obo/foodon/imports/robot_process_import.owl" \
   --output ../robot_process_import.owl
 
+robot template --template dietary_supplement.tsv\
+  --input "../../foodon-merged.owl" \
+  --ontology-iri "http://purl.obolibrary.org/obo/foodon/imports/dietary_supplement_import.owl" \
+  --output ../robot_dietary_supplement.owl
+
 The --input parameter is used to bring in .owl entities that are referenced in axioms
 The --prefix parameter is used to expand abbreviated namespace URLs.
 All output files get delivered to parent directory.  Manually import them in FoodOn (in Active Ontology -> Ontology Imports section of Protege.

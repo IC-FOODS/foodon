@@ -10,6 +10,7 @@ NCBITaxon
 # NEED Smilax aristolochiifolia / Mexican sasparilla
 # NEED Mitragyna javanica
 
+http://purl.obolibrary.org/obo/NCBITaxon_64040 # Actaea racemosa
 
 http://purl.obolibrary.org/obo/NCBITaxon_13551 # Gryllodes sigillatus
 
@@ -1459,8 +1460,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_4038 # species:Daucus L.
 http://purl.obolibrary.org/obo/NCBITaxon_4039 # species:Daucus carota L.
 http://purl.obolibrary.org/obo/NCBITaxon_4041 # Pastinaca sativa
 http://purl.obolibrary.org/obo/NCBITaxon_4042 # species:Petroselinum  J. Hill
-http://purl.obolibrary.org/obo/NCBITaxon_4043 # Petroselinum crispum
-http://purl.obolibrary.org/obo/NCBITaxon_4045 # Apium graveolens
+
+
 http://purl.obolibrary.org/obo/NCBITaxon_40488 # Sarcomyxa serotina
 http://purl.obolibrary.org/obo/NCBITaxon_40493 # species:Lutjanus Bloch, 1790
 http://purl.obolibrary.org/obo/NCBITaxon_40495 # species:Lutjanus analis (Cuvier in Cuvier and Valenciennes, 1828)
@@ -4062,6 +4063,10 @@ http://purl.obolibrary.org/obo/NCBITaxon_36056 # Boletus edulis
 includeAllChildren
 http://purl.obolibrary.org/obo/NCBITaxon_3486 # Humulus lupulus
 includeAllChildren 
+http://purl.obolibrary.org/obo/NCBITaxon_4045 # Apium graveolens
+includeAllChildren
+http://purl.obolibrary.org/obo/NCBITaxon_4043 # Petroselinum crispum
+includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2 # Bacteria
