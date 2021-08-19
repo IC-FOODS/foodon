@@ -565,6 +565,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16796">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22160"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27162"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of  acetamides that is acetamide in which one of the hydrogens attached to the nitrogen atom is replaced by a 2-(5-methoxy-1H-indol-3-yl)ethyl group. It is a hormone secreted by the pineal gland in humans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melatonin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16811 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16811">
@@ -1185,6 +1197,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds with the general formula RNHC(=O)CH3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetamides</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22290 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22290">
@@ -1779,6 +1802,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24586"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any  hexosamine that is glucose in which at least one of the hydroxy groups has been replaced by an amino group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucosamines</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24278">
@@ -1914,6 +1948,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17522"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hexitol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60926"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any 6-carbon amino monosaccharide with at least one alcoholic hydroxy group replaced by an amino group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hexosamine</rdfs:label>
     </owl:Class>
     
 
@@ -3215,6 +3260,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78840"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any olefinic compound characterised by a 1,2-diphenylethylene backbone.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stilbenoid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26816 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26816">
@@ -3484,6 +3541,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24828"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tryptamine and its substitution derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tryptamines</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_27171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27171">
@@ -3646,6 +3714,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23334"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxocobalamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27881">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33572"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stilbenol that is stilbene in which the phenyl groups are substituted at positions 3, 5, and 4&apos; by hydroxy groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resveratrol</rdfs:label>
     </owl:Class>
     
 
@@ -3839,6 +3920,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimethylxanthine having the two methyl groups located at positions 3 and 7. A purine alkaloid derived from the cacao plant, it is found in chocolate, as well as in a number of other foods, and is a vasodilator, diuretic and heart stimulator.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">theobromine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28963">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63299"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any sugar having one or more alcoholic hydroxy groups replaced by substituted or unsubstituted amino groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino sugar</rdfs:label>
     </owl:Class>
     
 
@@ -4955,6 +5047,27 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27081"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-block element atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benzenediols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33570"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any benzenediol in which the two hydroxy groups are meta to one another.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resorcinols</rdfs:label>
     </owl:Class>
     
 
@@ -6325,6 +6438,18 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A family of polyunsaturated fatty acids that have in common a final carbon-carbon double bond in the n-6 position, i.e., the sixth bond from the methyl end of the fatty acid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">omega-6 fatty acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26776"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any  stilbenoid with at least one phenolic group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stilbenol</rdfs:label>
     </owl:Class>
     
 
@@ -8445,6 +8570,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24271"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucosamine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_55505 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55505">
@@ -8584,6 +8719,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amino acid containing one or more nitrogen atoms connected through carbon atoms to one or more carboxy groups.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyamino carboxylic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_60926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60926">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28963"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any  amino sugar that is a monosaccharide in which one alcoholic hydroxy group is replaced by an amino group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino monosaccharide</rdfs:label>
     </owl:Class>
     
 

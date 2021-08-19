@@ -17489,6 +17489,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_271697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_271697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1003877"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white-seed melon</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melothria sphaerocarpa</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_271940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_271940">
@@ -26306,6 +26317,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3668">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1003877"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bottle gourd</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calabash</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white-flowered gourd</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lagenaria siceraria</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3669">
@@ -28631,6 +28655,20 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rosemary</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salvia rosmarinus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39257"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aaron&apos;s-rod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common mullein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flannel plant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">velvet plant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verbascum thapsus</rdfs:label>
     </owl:Class>
     
 
@@ -35928,6 +35966,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_716546"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monascus purpureus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_509962 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_509962">
@@ -43006,6 +43054,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_716546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_716546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147538"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leotiomyceta</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_71694 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_71694">
@@ -45419,7 +45477,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_78060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_78060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147538"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_716546"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parmeliaceae</rdfs:label>
     </owl:Class>

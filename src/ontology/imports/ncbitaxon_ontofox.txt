@@ -7,8 +7,6 @@ NCBITaxon
 [Low level source term URIs]
 
 
-
-
 http://purl.obolibrary.org/obo/NCBITaxon_271697 # Melothria sphaerocarpa
 
 # NEED Smilax aristolochiifolia / Mexican sasparilla

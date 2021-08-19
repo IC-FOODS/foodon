@@ -54,6 +54,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -195,6 +201,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001915"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00001981 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001981"/>
@@ -259,6 +271,7 @@
         <oboInOwl:hasExactSynonym xml:lang="en">apple</oboInOwl:hasExactSynonym>
         <rdfs:comment xml:lang="en">A whole apple may include a stem.</rdfs:comment>
         <rdfs:label xml:lang="en">apple (whole)</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www-atlasobscura-com.cdn.ampproject.org/c/s/www.atlasobscura.com/articles/heritage-appalachian-apples.amp</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5881,6 +5894,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001704"/>
         <obo:IAO_0000115 xml:lang="en">A bunch of a raw celery leaves.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Celery</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T02:01:46</dc:date>
@@ -7709,7 +7723,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Russet_potato</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T17:32:19</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">idaho potato</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">russet potatoes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">russet potato</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">idaho potato (whole)</rdfs:label>
     </owl:Class>
     
@@ -7744,7 +7758,7 @@
         <obo:IAO_0000115 xml:lang="en">A root of a ginger plant (Zingiber officinale)</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ginger</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T17:33:19</dc:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">ginger</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym xml:lang="en">ginger</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">ginger root</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">ginger root (whole)</rdfs:label>
     </owl:Class>
@@ -7769,7 +7783,7 @@
         <obo:IAO_0000115 xml:lang="en">A root of a ginseng plant</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ginseng</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T17:39:12</dc:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">ginseng</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym xml:lang="en">ginseng</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">ginseng root</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">ginseng root (whole)</rdfs:label>
     </owl:Class>
@@ -7819,7 +7833,7 @@
         <obo:IAO_0000115 xml:lang="en">A drupe fruit of a rambutan plant (Nephelium lappaceum)</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Rambutan</obo:IAO_0000119>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-11T17:42:13</dc:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">hairy lychee tree</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hairy lychee</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">rambutan</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">rambutan (whole)</rdfs:label>
     </owl:Class>
@@ -9092,6 +9106,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003780">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0030111"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3668"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001915"/>
+        <obo:IAO_0000115 xml:lang="en">A pepo fruit of a Calabash melon plant (Lagenaria siceraria).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://edis.ifas.ufl.edu/publication/MV070</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">https://edis.ifas.ufl.edu/publication/MV070</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">Guinea bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Italian edible gourd</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">New Guinea bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Tasmania bean</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bottle gourd</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">calabash</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">giant gourd</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">suzza melon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">white flowered gourd</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">zucca melon</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">(some sources say that zucca melon is Lagenaria siceraria, a botle guord, https://forums.botanicalgarden.ubc.ca/threads/zucca-mellons.29365/ , http://www.grassrootsolutions.com/pdf/Pages%2043-36%20from%20Every%20Seed%20090316%20final%20printed%20(1).pdf , but i m not 100% sure about it-Anoosha)</rdfs:comment>
+        <rdfs:label xml:lang="en">zucca melon (whole)</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> https://en.wikipedia.org/wiki/Gourd</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.grassrootsolutions.com/pdf/Pages%2043-36%20from%20Every%20Seed%20090316%20final%20printed%20(1).pdf </rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_00003781 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003781">
@@ -9211,6 +9261,16 @@
         <oboInOwl:hasExactSynonym xml:lang="en">sugar corn</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">sweetcorn</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">sweet corn kernel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003786">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003427"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">long grain rice</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">long grain rice kernel</rdfs:label>
     </owl:Class>
     
 
@@ -10279,7 +10339,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3866"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003902"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -10427,6 +10487,340 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-30T19:58:17</dc:date>
         <oboInOwl:hasExactSynonym xml:lang="en">romaine heart</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">romaine lettuce heart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003878">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44588"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003718"/>
+        <obo:IAO_0000115 xml:lang="en">A root of an american ginseng plant (Panax quinquefolius)</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ginseng</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-11T17:39:12</dc:date>
+        <oboInOwl:hasBroadSynonym xml:lang="en">american ginseng</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">american ginseng root (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003893">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4054"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003718"/>
+        <obo:IAO_0000115 xml:lang="en">A root of a chinese ginseng plant (Panax ginseng)</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ginseng</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-11T17:39:12</dc:date>
+        <oboInOwl:hasBroadSynonym xml:lang="en">korean ginseng</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">chinese ginseng root (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003894">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44685"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003718"/>
+        <obo:IAO_0000115 xml:lang="en">A root of a japanese ginseng plant (Panax japonicus)</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ginseng</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-11T17:39:12</dc:date>
+        <oboInOwl:hasBroadSynonym xml:lang="en">japanese ginseng</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">japanese ginseng root (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003895 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003895">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_93385"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003664"/>
+        <obo:IAO_0000115 xml:lang="en">A rosette leaf of a bok choy plant (Brassica rapa subsp. chinensis).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0001-5275-8866</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Bok_choy</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-06T13:52:12</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">bok choy leaf</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">pak choi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">pok choi</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">bok choy leaf (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003896">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0025615"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_93385"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003662"/>
+        <obo:IAO_0000115 xml:lang="en">A rosette of a bok choy plant (Brassica rapa subsp. chinensis)</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">bok choy rosette</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003897">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003895"/>
+        <obo:IAO_0000115 xml:lang="en">A rosette leaf of a shanghai bok choy plant.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">shanghai bok choy leaf</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">shanghai bok choy leaf (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003898">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003896"/>
+        <obo:IAO_0000115 xml:lang="en">A rosette of a shanghai bok choy plant.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">shanghai bok choy rosette</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003899">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
+        <obo:IAO_0000115 xml:lang="en">A seed of certain cucurbitaceous plants found in Africa.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Egusi  </obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="en">agushi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">agushi seed</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">agusi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">agusi seed</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">egwusi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ohue</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">Egusi seeds may be from melon plants including Melothria sphaerocarpa or Citrullus lanatus.</rdfs:comment>
+        <rdfs:label xml:lang="en">egusi seed (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003900">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0025034"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32247"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+        <obo:IAO_0000115 xml:lang="en">A leaf of a raspberry plant (Rubus idaeus).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Red_raspberry_leaf </obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="en">european red raspberry leaf</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">garden raspberry leaf</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">red raspberry leaf</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">red raspberry leaf (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003901">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0025034"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39388"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+        <obo:IAO_0000115 xml:lang="en">A leaf of a common mullein plant (Verbascum thapsus).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Verbascum_thapsus </obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="en">common mullein leaf</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">great mullein leaf</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">mullein leaf</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">mullein leaf (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003902">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002765"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3866"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002765"/>
+        <obo:IAO_0000115 xml:lang="en">A pod of a river tamarind plant (Leucaena leucocephala).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Leucaena_leucocephala </obo:IAO_0000119>
+        <oboInOwl:hasBroadSynonym xml:lang="en">guaje</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">river tamarind pod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003903">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_64040"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
+        <obo:IAO_0000115 xml:lang="en">A root of a black cohosh plant</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0002-7463-6306</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Actaea_racemosa</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-22T17:39:12</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">Actaea racemosa root</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">black cohost root</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Actaea racemosa root (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003904 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003904">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0025034"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3311"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+        <obo:IAO_0000115 xml:lang="en">A leaf of a ginkgo plant (Ginkgo biloba)</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0002-7463-6306</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ginkgo_biloba</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-22T17:39:12</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">ginkgo biloba leaf</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">ginkgo leaf</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Ginkgo biloba leaf (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003905">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_92921"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
+        <obo:IAO_0000115 xml:lang="en">A seed of a milk thistle plant (Silybum marianum).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0002-7463-6306</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Silybum_marianum</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-22T17:39:12</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">milk thistle seed</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Silybum marianum seed (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003906">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0000056"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_65561"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0000056"/>
+        <obo:IAO_0000115 xml:lang="en">A flower bud of a St. John&apos;s wort plant (Hypericum perforatum).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0002-7463-6306</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Hypericum_perforatum</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-22T17:39:12</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">St. John&apos;s wort flower</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Hypericum perforatum flower (whole)</rdfs:label>
     </owl:Class>
     
 
@@ -11004,10 +11398,10 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03307879 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03307879">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
-        <rdfs:subClassOf>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0009010"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3650"/>
@@ -11018,10 +11412,10 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </rdfs:subClassOf>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
         <obo:IAO_0000115 xml:lang="en">A seed of a melon plant.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Melon</obo:IAO_0000119>
-        <oboInOwl:hasExactSynonym xml:lang="en">melon</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">melon seed (whole)</rdfs:label>
     </owl:Class>
     
@@ -14519,6 +14913,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3668"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3669"/>
@@ -14825,6 +15225,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39388"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_39407 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39407"/>
@@ -14900,6 +15306,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4054"/>
     
 
 
@@ -15041,9 +15453,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_44588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44588"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4460 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4460"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_44685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44685"/>
     
 
 
@@ -15437,6 +15861,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_64040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_64040"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_64608 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_64608"/>
@@ -15458,6 +15888,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_65558 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_65558"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_65561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_65561"/>
     
 
 
@@ -15626,6 +16062,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_925390 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_925390"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_92921 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_92921"/>
     
 
 
@@ -15930,5 +16372,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

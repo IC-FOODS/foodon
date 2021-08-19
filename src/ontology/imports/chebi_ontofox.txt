@@ -11,6 +11,12 @@ http://purl.obolibrary.org/obo/CHEBI_83162 # propolis extract / A mixture result
 http://purl.obolibrary.org/obo/CHEBI_46245 # coenzyme Q10
 http://purl.obolibrary.org/obo/CHEBI_27881 # resveratrol
 
+http://purl.obolibrary.org/obo/CHEBI_5417 # glucosamine
+
+
+http://purl.obolibrary.org/obo/CHEBI_16796 # melatonin
+
+
 http://purl.obolibrary.org/obo/CHEBI_33290 # food [ROLE!!!!]
 # http://purl.obolibrary.org/obo/CHEBI_50906 # role
 http://purl.obolibrary.org/obo/CHEBI_24432 #    biological role
