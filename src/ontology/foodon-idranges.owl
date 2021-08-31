@@ -76,7 +76,7 @@ Datatype: idrange:5
         allocatedto: "Lauren Chan"
     
     EquivalentTo: 
-        xsd:integer[> 3500000 , <= 3500999]
+        xsd:integer[> 3600000 , <= 3600999]
 
     
 Datatype: rdf:PlainLiteral
