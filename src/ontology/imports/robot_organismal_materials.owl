@@ -10825,6 +10825,47 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003946">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PO_0030111"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411189"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030111"/>
+        <obo:IAO_0000115 xml:lang="en">A pepo fruit of a summer squash plant harvested in the fall.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0002-7463-6306</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Winter_squash</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-22T17:39:12</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">winter squash</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">winter squash (whole)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003950">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
+        <obo:IAO_0000115 xml:lang="en">A seed from a cereal or pseudocereal plant which has a germ (embryo), endosperm, and bran (pericarp, seed coat, and aleurone) part.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2000/01/rdf-schema#anyURI">https://orcid.org/0000-0002-8844-9165</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Whole_grain</obo:IAO_0000119>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-02 18:25:57</dc:date>
+        <oboInOwl:hasBroadSynonym xml:lang="en">whole grain</oboInOwl:hasBroadSynonym>
+        <rdfs:comment xml:lang="en">From https://wholegrainscouncil.org/definition-whole-grain: &quot;Whole grains or foods made from them contain all the essential parts and naturally-occurring nutrients of the entire grain seed in their original proportions. If the grain has been processed (e.g., cracked, crushed, rolled, extruded, and/or cooked), the food product should deliver the same rich balance of nutrients that are found in the original grain seed. [...] This deﬁnition means that 100% of the original kernel – all of the bran, germ, and endosperm - must be present to qualify as a whole grain.</rdfs:comment>
+        <rdfs:label xml:lang="en">whole grain</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://wholegrainscouncil.org/definition-whole-grain</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOODON_03301227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03301227">
@@ -12117,6 +12158,12 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_03411141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411141"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03411189"/>
     
 
 
