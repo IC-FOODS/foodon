@@ -1,3 +1,20 @@
+# ncbitaxon_check.py
+#
+# OntoFox import of long lists of NCBITaxon items from an ncbitaxon_ontofox.txt
+# file can be compromised if a single line within the file is not formatted
+# correctly, i.e. if anything is wrong with
+#
+# 	http://purl.obolibrary.org/obo/NCBITaxon # some text
+#
+# like a missing #. Secondly, if a NCBITaxon reference has been deprecated 
+# (they occasionally seem to allow complete dissapearence of a term when it
+# is being phased out in favour of another) the output may not contain it
+# at all.
+#
+# This script identifies missing entries in order to diagnose and aid cleanup.
+#
+# Damion Dooley, Sept 7 2021
+#
 content_dict = set();
 
 for file_name in ['imports/ncbitaxon', 'imports/ncbitaxon2']:
