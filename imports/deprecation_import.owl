@@ -21559,7 +21559,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520001">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03520010"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
         <oboInOwl:hasDbXref>http://www.langual.org/langual_thesaurus.asp?termid=R0001</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">obsolete: geographic place or region not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -21571,7 +21571,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520010">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
         <rdfs:label xml:lang="en">obsolete: geographic places and regions</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -21605,7 +21605,7 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03520509">
         <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GEO_000000372"/>
         <rdfs:label xml:lang="en">obsolete: continents, regions and countries</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -21615,7 +21615,6 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     <!-- http://purl.obolibrary.org/obo/FOODON_03530001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03530001">
-        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03530005"/>
         <rdfs:label xml:lang="en">obsolete: adjunct characteristics of food not known</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -21873,6 +21872,17 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: filbert nut (whole, shell on, raw)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411277">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40922"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">obsolete: dill plant</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411282">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4045"/>
+        <rdfs:label xml:lang="en">obsolete: celery plant</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411350">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3760"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -21898,6 +21908,11 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: muskmelon plant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412121">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29760"/>
+        <rdfs:label xml:lang="en">obsolete: european grape plant</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03412474">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29727"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -21908,14 +21923,19 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <rdfs:label xml:lang="en">obsolete: brown durra plant</rdfs:label>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4558"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03413728">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">obsolete: leaf celery plant</rdfs:label>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_941588"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414174">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91752"/>
         <rdfs:label xml:lang="en">obsolete: monkeyhead mushroom</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414270">
-        <rdfs:label xml:lang="en">obsolete: banana plant</rdfs:label>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4640"/>
+        <rdfs:label xml:lang="en">obsolete: banana plant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03414316">
@@ -21933,6 +21953,11 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03414184"/>
         <rdfs:label xml:lang="en">obsolete: wood cauliflower</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03415146">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39388"/>
+        <rdfs:label xml:lang="en">mullein plant</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420165">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <rdfs:label xml:lang="en">obsolete: fruit or seed</rdfs:label>
@@ -21946,8 +21971,8 @@ For industrial processing, e.g. in the process inactivation of enzymatic activit
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420289">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PO_0000055"/>
         <rdfs:label xml:lang="en">obsolete: bud</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <obo:IAO_0000115 xml:lang="en">A small swelling or projection on a plant, from which a shoot, cluster of leaves, or flower develops (Source: Webster&apos;s)</obo:IAO_0000115>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420310">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PO_0009029"/>

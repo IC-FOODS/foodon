@@ -132,6 +132,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_132124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_132124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22729"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25830"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any member of the class of benzoquinones that is 1,4-benzoquinone or its C-substituted derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,4-benzoquinones</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_132502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_132502">
@@ -226,7 +238,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_140785">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23333"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkylcob(III)alamin</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-cob(III)alamin</rdfs:label>
     </owl:Class>
     
 
@@ -472,6 +484,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16389">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_132124"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26255"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any benzoquinone derived from 2,3-dimethoxy-5-methylbenzoquinone; one of a group of naturally occurring homologues. The redox-active quinoid moiety usually carries a polyprenoid side chain at position 6, the number of isoprenoid units in which is species-specific. Ubiquinones are involved in the control of mitochondrial electron transport, and are also potent anti-oxidants.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ubiquinones</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16449 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16449">
@@ -541,6 +565,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16796">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22160"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27162"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of  acetamides that is acetamide in which one of the hydrogens attached to the nitrogen atom is replaced by a 2-(5-methoxy-1H-indol-3-yl)ethyl group. It is a hormone secreted by the pineal gland in humans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melatonin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16811 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16811">
@@ -549,6 +585,16 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sulfur-containing amino acid that is butyric acid bearing an amino substituent at position 2 and a methylthio substituent at position 4.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methionine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_168306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_168306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27013"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13&apos;-Carboxy-gamma-tocopherol</rdfs:label>
     </owl:Class>
     
 
@@ -868,7 +914,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17716">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24405"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A  glycosylglucose disaccharide, found most notably in milk, that consists of D-galactose and D-glucose fragments bonded through a beta-1-&gt;4 glycosidic linkage. The glucose fragment can be in either the alpha- or beta-pyranose form, whereas the galactose fragment can only have the beta-pyranose form.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycosylglucose disaccharide, found most notably in milk, that consists of D-galactose and D-glucose fragments bonded through a beta-1-&gt;4 glycosidic linkage. The glucose fragment can be in either the alpha- or beta-pyranose form, whereas the galactose fragment can only have the beta-pyranose form.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactose</rdfs:label>
     </owl:Class>
@@ -1151,6 +1197,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds with the general formula RNHC(=O)CH3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetamides</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22290 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22290">
@@ -1343,6 +1400,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38180"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benzopyrrole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22729">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36141"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any quinone resulting from the formal oxidation of catechol, hydroquinone, or their C-substituted derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benzoquinones</rdfs:label>
     </owl:Class>
     
 
@@ -1734,6 +1802,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24586"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any  hexosamine that is glucose in which at least one of the hydroxy groups has been replaced by an amino group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucosamines</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24278">
@@ -1869,6 +1948,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17522"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hexitol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60926"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any 6-carbon amino monosaccharide with at least one alcoholic hydroxy group replaced by an amino group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hexosamine</rdfs:label>
     </owl:Class>
     
 
@@ -3170,6 +3260,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78840"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any olefinic compound characterised by a 1,2-diphenylethylene backbone.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stilbenoid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26816 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26816">
@@ -3439,6 +3541,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24828"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tryptamine and its substitution derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tryptamines</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_27171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27171">
@@ -3601,6 +3714,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23334"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxocobalamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27881">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33572"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stilbenol that is stilbene in which the phenyl groups are substituted at positions 3, 5, and 4&apos; by hydroxy groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resveratrol</rdfs:label>
     </owl:Class>
     
 
@@ -3794,6 +3920,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimethylxanthine having the two methyl groups located at positions 3 and 7. A purine alkaloid derived from the cacao plant, it is found in chocolate, as well as in a number of other foods, and is a vasodilator, diuretic and heart stimulator.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">theobromine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28963">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63299"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any sugar having one or more alcoholic hydroxy groups replaced by substituted or unsubstituted amino groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino sugar</rdfs:label>
     </owl:Class>
     
 
@@ -4368,6 +4505,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35156"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The calcium salt of D-gluconic acid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium gluconate</rdfs:label>
     </owl:Class>
@@ -4909,6 +5047,27 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27081"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d-block element atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benzenediols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33570"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any benzenediol in which the two hydroxy groups are meta to one another.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resorcinols</rdfs:label>
     </owl:Class>
     
 
@@ -5960,7 +6119,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51958"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of naturally occurring compounds and synthetic analogues, based on the cyclopenta[a]phenanthrene carbon skeleton, partially or completely hydrogenated; there are usually methyl groups at C-10 and C-13, and often an alkyl group at C-17. By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred. Natural steroids are derived biogenetically from squalene, so may be considered as triterpenoids.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of naturally occurring compounds and synthetic analogues, based on the cyclopenta[a]phenanthrene carbon skeleton, partially or completely hydrogenated; there are usually methyl groups at C-10 and C-13, and often an alkyl group at C-17. By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred. Natural steroids are derived biogenetically from squalene which is a triterpene.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steroid</rdfs:label>
     </owl:Class>
@@ -6283,6 +6442,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26776"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any  stilbenoid with at least one phenolic group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stilbenol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_36054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36054">
@@ -6379,6 +6550,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33892"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hexacyanoferrate salt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17522"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycosyl alditol</rdfs:label>
     </owl:Class>
     
 
@@ -7386,6 +7567,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16389"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ubiquinone having a side chain of 10 isoprenoid units. In the naturally occurring isomer, all isoprenyl double bonds are in the E- configuration.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coenzyme Q10</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_46430 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46430">
@@ -8378,6 +8570,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24271"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucosamine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_55505 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55505">
@@ -8517,6 +8719,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amino acid containing one or more nitrogen atoms connected through carbon atoms to one or more carboxy groups.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyamino carboxylic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_60926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60926">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28963"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any  amino sugar that is a monosaccharide in which one alcoholic hydroxy group is replaced by an amino group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino monosaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -8962,6 +9175,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_68428">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22390"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36307"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alpha-D-glucoside consisting of D-glucitol having an alpha-D-glucosyl residue attached at the 4-position. Used as a sugar substitute.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maltitol</rdfs:label>
@@ -9133,8 +9347,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_75323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36233"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disaccharide consisting of beta-D-galactopyranose and D-glucitol joined by a 1-&gt;4 glycosidic bond. It is used as a laxative, as an excipient, and as replacement bulk sweetener in some low-calorie foods.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36307"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycosyl alditol consisting of beta-D-galactopyranose and D-glucitol joined by a 1-&gt;4 glycosidic bond. It is used as a laxative, as an excipient, and as replacement bulk sweetener in some low-calorie foods.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactitol</rdfs:label>
     </owl:Class>
