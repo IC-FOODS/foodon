@@ -27,9 +27,9 @@ deleted since it fetches NCBITaxon related information using the EOL.org API (in
 
 ##To run SPARQL queries
 
-As Protege's sparql query engine has some odd startup phase that often stalls protege on large ontologies, one may need to launch sparql queries via command line directly. Here is an example using http://robot.obolibrary.org/query.html
+Here is an example of launching a sparql query via command line directly using the **robot** http://robot.obolibrary.org/query.html query command. The end result is a list of FoodOn term labels and synonyms.
 
-robot query --input foodon-merged.owl --query owl_get_labels.sparql test.tsv --format TSV
+robot query --input foodon-merged.owl --query foodon_synonyms.sparql test.tsv --format TSV
 
 ##To run ontofetch.py on local foodon-merged.owl and get a json or tsv output of all foodon terms and their ids, synonyms and parents:
 

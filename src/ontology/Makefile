@@ -37,6 +37,7 @@ prepare_release: all
 	cp $(ONT).owl $(ONT)_core.owl &&\
 	cp $(ONT)_core.owl $(RELEASEDIR) &&\
 	cp $(ONT)_siren.owl $(RELEASEDIR) &&\
+	cp foodon_synonyms.tsv $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR)/imports/ &&\
 	git add $(RELEASEDIR)/imports/*.owl &&\
 	(test -f subsets/*.owl && cp subsets/*.owl $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
@@ -51,14 +52,13 @@ $(ONT).owl: $(SRC)
 	$(ROBOT) merge --input $(ONT).owl --xml-entities --output $(ONT)-merged.owl
 	sed -i '.bak' 's/<owl:imports[^>]*\/>/<!-- & -->/' $(ONT)-merged.owl
 
-# Make a file that provides labels for each term in ontology.
-# Note: may want to include langual_deprecated_import.owl
-#	robot query --format TSV --input foodon-merged.owl -s owl_get_labels.sparql foodon-labels.tsv
+# Make a file that provides labels and synonyms for each term in ontology from BFO:Entity .
+	robot query --format TSV --input foodon-merged.owl -s foodon_synonyms.sparql foodon-synonyms.tsv
 
 # ALL OWL imports: chebi efo envo eo gazetteer ncbitaxon obi ro uberon langual
 # ALL OntoFox imports: chebi efo envo eo gazetteer ncbitaxon obi ro
 # ISSUE WITH BFO: Ontofox doesn't download disjointWith axioms????
-IMPORTS = agro chebi envo eupath fao gaz hancestro ncit ncbitaxon obi pato peco po ro uo uberon
+IMPORTS = chebi envo gaz general ncbitaxon ncbitaxon2
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS))
 IMPORTS_TXT = $(patsubst %, imports/%_ontofox.txt,$(IMPORTS))
 
@@ -97,11 +97,8 @@ imports/%_import.owl: imports/%_ontofox.txt
 ## Make Targets for Robot Templates: ##
 
 # Organismal Materials Robot template
-imports/robot/organismal_materials.owl: imports/robot/organismal_materials.tsv
-	$(ROBOT) template --template $< -i foodon-edit.owl --prefix "FOODON:http://purl.obolibrary.org/obo/FOODON_" --prefix "RO:http://purl.obolibrary.org/obo/RO_" --prefix "PO:http://purl.obolibrary.org/obo/PO_" --prefix "NCBITaxon:http://purl.obolibrary.org/obo/NCBITaxon_" --prefix "oboInOwl:http://www.geneontology.org/formats/oboInOwl#" --prefix "schema:http://schema.org/"  --ontology-iri "http://purl.obolibrary.org/foodon/imports/robot_organismal_materials.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
-
-
-
+imports/robot/plant_parts.owl: imports/robot/plant_parts.tsv
+	$(ROBOT) template --template $< -i foodon-edit.owl --ontology-iri "http://purl.obolibrary.org/foodon/imports/robot_plant_parts.owl" -o $@.tmp.owl && mv $@.tmp.owl $@
 
 
 release: $(ONT).owl
